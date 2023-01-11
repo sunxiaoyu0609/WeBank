@@ -1,0 +1,100 @@
+*{
+     margin: 0;
+     padding: 0;
+ }
+.container>.header>nav{
+    z-index: 1;
+}
+.all-row>.breadcrumb{
+    margin-left: 0;
+}
+.middle{
+    width: 76.1%;
+    background: white;
+    height: auto;
+}
+.dropdown>button{
+    background: #3197e9c4;
+    border: white;
+}
+.learnmore{
+    text-decoration: none;
+    color: #535353;
+}
+.all-row>.breadcrumb{
+    margin-left: 0;
+}
+.row-l,.row-r{
+    margin-top:10px;
+}
+.CRI>.dropdown{
+    padding-left:20px;
+}
+.row-r{
+    box-shadow: 0 2px 6px #eeeeee;
+    border: 1px solid gainsboro;
+    padding: 10px;
+    height: 150px;
+}
+.function {
+    margin-top: 14px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #dadada;
+    height: 30px;
+    text-align: right;
+    position: relative;
+    float: left;
+    width: 100%;
+}
+.share, .print {
+    display: inline-block;
+    border: 1px solid #dadada;
+    border-radius: 2px;
+    color: #000;
+    line-height: 28px;
+    padding: 0 10px;
+    border-bottom: 0;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.share_pop {
+    position: absolute;
+    right: 100px;
+    top: -4px;
+    width: 170px;
+    height: 35px;
+    overflow: hidden;
+}
+.share_pop>img{
+    width: 100%;
+    height: 100%;
+}
+
+/*进度条*/
+.clear{
+    clear: both;
+}
+.roww{
+    width:80%;
+    height:30px;
+    margin:20px auto;
+}
+.roww div{
+    float:left;
+    height:30px;
+    line-height:30px;
+}
+.background{
+    width:80%;
+    height:30px;
+    border:1px solid #ccc;
+    border-radius: 10px;
+    background:#eee;
+    margin:0px 50px;
+    overflow:hidden;
+}
+.progress{
+    border-radius: 10px;
+    overflow:hidden;
+}

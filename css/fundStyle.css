@@ -1,0 +1,318 @@
+/**{*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+/*}*/
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style-type: none;
+}
+.middle{
+    margin: auto;
+    width: 75.6%;
+}
+.breadcrumb li a{
+    text-decoration: none;
+    color: darkgray;
+}
+.breadcrumb li a:hover{
+    color: darkblue;
+}
+.middle .fund{
+    height: 1155px;
+}
+.middle .fund hr{
+    width:100%;
+    margin-top: 10px;
+}
+.middle .fund .fontcolor{
+    display: inline-block;
+    width: 57%;
+    color: dimgray;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+/*股票型板块*/
+.middle .fund .fund1{
+    width: 49%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 2px 6px #e5e5e5;
+    margin-top: 2%;
+    float: left;
+    overflow: hidden;
+    background-color: white;
+}
+.middle .fund .fund1 .shares{
+    width: 100%;
+    margin-top: 1%;
+    margin-left: 3%;
+}
+.middle .fund .fund1 .shares p a{
+    color: darkslategray;
+    font-size: 21px;
+}
+.middle .fund .fund1 .shares p a:hover{
+    color: darkorange;
+}
+.middle .fund .fund1 .shares1{
+    width: 80%;
+    margin-left: 8%;
+ }
+.middle .fund .fund1 .shares1 .gupiao{
+    width: 100%;
+}
+select{
+    border: none;
+}
+tr{
+    width: 100%;
+    border-bottom: 1px solid gainsboro;
+}
+tr td:nth-child(1){
+    width: 48%;
+}
+tr td:nth-child(2){
+    width: 20%;
+}
+tr td:nth-child(3){
+    width: 32%;
+}
+tr,td{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+tr td a.amore{
+      color: firebrick;
+  }
+td:hover{
+    color:brown;
+    font-weight: 900;
+    cursor: pointer;
+}
+tr td a:hover{
+    color: brown;
+    font-weight: 900;
+}
+/*混合型第二个板块*/
+.middle .fund .fund2{
+    width: 49%;
+    height: auto;
+    float: right;
+    border-radius: 20px;
+    box-shadow: 0 2px 6px #e5e5e5;
+    margin-top: 2%;
+    overflow: hidden;
+    background-color: white;
+}
+.middle .fund .fund2 .mix{
+    width: 100%;
+    margin-top: 1%;
+    margin-left: 3%;
+}
+.middle .fund .fund2 .mix p a{
+    color: darkslategray;
+    font-size: 21px;
+}
+.middle .fund .fund2 .mix p a:hover{
+    color: darkorange;
+}
+.middle .fund .fund2 .mix1{
+    width: 80%;
+    margin-left: 10%;
+}
+.middle .fund .fund2 .mix1 .hunhe{
+    width: 100%;
+}
+/*债券型板块*/
+.middle .fund .fund3{
+    width: 49%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 2px 6px #e5e5e5;
+    margin-top: 2%;
+    overflow: hidden;
+    float: left;
+    background-color: white;
+}
+.middle .fund .fund3 .bond{
+    width: 100%;
+    margin-top: 1%;
+    margin-left: 3%;
+}
+.middle .fund .fund3 .bond p a{
+    color: darkslategray;
+    font-size: 21px;
+}
+.middle .fund .fund3 .bond p a:hover{
+    color: darkorange;
+}
+.middle .fund .fund3 .bond1{
+    width: 80%;
+    margin-left: 10%;
+}
+.middle .fund .fund3 .bond1 .zhaiquan{
+    width: 100%;
+}
+/*指数型第四个板块*/
+.middle .fund .fund4{
+    width: 49%;
+    height: auto;
+    float: right;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 2px 6px #e5e5e5;
+    margin-top: 2%;
+    background-color: white;
+}
+.middle .fund .fund4 .index{
+    width: 100%;
+    margin-top: 1%;
+    margin-left: 3%;
+}
+.middle .fund .fund4 .index p a{
+    color: darkslategray;
+    font-size: 21px;
+}
+.middle .fund .fund4 .index p a:hover{
+    color: darkorange;
+}
+.middle .fund .fund4 .index1{
+    width: 80%;
+    margin-left: 10%;
+}
+.middle .fund .fund4 .index1 .zhishu{
+    width: 100%;
+}
+/*债券型板块*/
+.middle .fund .fund5{
+    width: 49%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 2px 6px #e5e5e5;
+    margin-top: 2%;
+    float: left;
+    overflow: hidden;
+    background-color: white;
+}
+.middle .fund .fund5 .money{
+    width: 100%;
+    margin-top: 1%;
+    margin-left: 3%;
+}
+.middle .fund .fund5 .money p a{
+    color: darkslategray;
+    font-size: 21px;
+}
+.middle .fund .fund5 .money p a:hover{
+    color: darkorange;
+}
+.middle .fund .fund5 .money1{
+    width: 80%;
+    margin-left: 10%;
+}
+.middle .fund .fund5 .money1 .huobi{
+    width: 100%;
+}
+/*资讯  侧边栏*/
+.info{
+    width: 100%;
+    height: 420px;
+}
+.info h2{
+    width: 50%;
+    float: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.info h2 span{
+    font-size: 14px;
+    margin-left: 3%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.info .more{
+    width: 50%;
+    font-size: 16px;
+    float: right;
+    color: firebrick;
+    text-align: right;
+}
+.info ul{
+    padding: 0;
+}
+.info .more:hover{
+    font-weight: 900;
+    color: brown;
+    cursor: pointer;
+}
+.info .information{
+    width: 100%;
+    height: 350px;
+    float: left;
+}
+.comma {
+    width: 100%;
+    height: 100%;
+}
+.panal {
+    width: 100%;
+    height: 100%;
+}
+.arcile {
+    width: 50%;
+    height: 100%;
+    background: #ffffff;
+    float: left;
+}
+.info-meu>ul:nth-child(1){
+    margin-top: 4%;
+    padding-left: 2%;
+}
+.info-meu>ul li:hover{
+    color: #b6d4fe;
+}
+.info-meu>ul li a {
+    text-decoration:none;
+    line-height:30px;
+    width:100%;
+    color:black;
+}
+.info-meu>ul li a:hover {
+    color:blue;
+}
+.info-meu>ul li a h4{
+    font-size: 15px;
+}
+.info-meu>ul li a .content1 span{
+    color: crimson;
+    float: right;
+    margin-right:  4%;
+}
+.panal .content{
+    width: 100%;
+    height: 100%;
+}
+.panal .content ul li{
+    width: 100%;
+}
+.panal .content ul li img{
+    width: 100%;
+    height: 321px;
+}
+.info-meu>ul li a h4{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.info-meu>ul li a .content1{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}

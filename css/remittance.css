@@ -1,0 +1,73 @@
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+li{
+    list-style-type: none;
+}
+.align-middle{
+    width: 75.6%;
+    margin-left: 12.2%;
+    height: 500px;
+}
+.breadcrumb li a{
+    text-decoration: none;
+    color: darkgray;
+}
+.breadcrumb li a:hover{
+    color: darkblue;
+}
+.remittance{
+    width: 77%;float: left;
+}
+.remittance .remit1,.remit2,.remit3{
+    width: 32%;
+    border: 1px solid gray;
+    border-radius: 15px;
+    float: left;
+    background-color: aliceblue;
+    /*height: 80px;*/
+}
+.remit2,.remit3 {
+    margin-left: 2%;
+}
+.remittance div img{
+    width: 30%;
+    margin-left: 10%;
+}
+.remitFunc{
+    width: 21%;
+    float: right;
+    background: ghostwhite;
+}
+.remitFunc img{
+    width: 18%;
+}
+.remitFunc li {
+    margin-top: 5%;
+}
+.remitFunc li:last-child img{
+    margin-left: 50%;
+    width: 8%;
+}
+.remitFunc ul li:hover{
+    color: brown;
+}
+.latest{
+    width: 100%;
+    margin-top: 18%;
+    height: 50%;
+    background-color: white;
+}
+.latest .last1,.last2,.last3{
+    width: 50%;
+    float: left;
+}
+.latest div p{
+    margin-left: 23%;
+    font-size: 1.2em;
+}
+.latest img{
+    width: 20%;
+    float: left;
+}

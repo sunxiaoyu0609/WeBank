@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        .div {
+            height:2000px;
+        }
+        ._top {
+            position:fixed;
+            right:0;
+            bottom:30%;
+            line-height:50px;
+            text-align:center;
+            cursor:pointer;
+            width:50px;
+            height:50px;
+            border:1px solid #CCC;
+            display:none;
+            background-color:#333;
+            color:aliceblue;
+        }
+
+    </style>
+</head>
+<body>
+<div class="div"></div>
+<div class="_top">
+    TOP
+</div>
+</body>
+<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+<script>
+    $(function() {
+        $(window).scroll(function() {
+            var _top = $(window).scrollTop();
+            if (_top > 300) {
+                $('._top').fadeIn(600);
+            } else {
+                $('._top').fadeOut(600);
+            }
+        });
+        $("._top").click(function() {
+            $("html,body").animate({
+                scrollTop: 0
+            }, 500);
+        });
+    });
+</script>
+</html>

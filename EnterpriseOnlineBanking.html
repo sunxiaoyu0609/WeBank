@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>201958304155孙小宇-企业网上银行</title>
+    <meta charset="UTF-8">
+    <title>201958304155孙小宇-电话银行</title>
+    <link rel="icon" href="images/logo.png" type="images/x-icon">
+    <link href="css/head.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/EnterpriseOnlineBanking.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/background.css">
+    <link rel="stylesheet" href="css/footer.css"/>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" ></script>
+</head>
+<body>
+<div class="container">
+    <div class="alert alert-dark alert-dismissible" style="width: 76.1%;margin: 0 auto;">
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        Tips：这是根据bootstrap栅格系统做的响应式界面
+    </div>
+    <!--头部框-->
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <div class="container-fluid top" style="width: 83.1%;">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse top-link1" id="mynavbar">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">简体中文</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">繁体中文</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">English</a>
+                    </li>
+                    <li class="nav-item" id="login">
+                        <a class="nav-link" href="#">用户登录</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">注销账号</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--LOGO和二级菜单-->
+    <div class="header">
+        <div class="header1 row">
+            <div class="logo col-lg-3 col-sm-12">
+                <a href="#"><img src="images/logo.png" style="width: 100%"></a>
+            </div>
+            <ul class="list-group list-group-horizontal col-lg-5 col-sm-12">
+                <li class="list-group-item"><a style="font-size: 15px;">服务热线:</a><a style="color: #5cacff;cursor: pointer">123456</a></li>
+                <li class="list-group-item"><a style="font-size: 15px;">信用卡热线:</a><a style="color: #5cacff;cursor: pointer">400123456</a></li>
+            </ul>
+            <form class="d-flex col-lg-4 col-sm-12">
+                <input class="form-control me-2" type="text" placeholder="请输入检索关键词" id="s1">
+                <button class="btn btn-primary" type="button" id="s2">搜索</button>
+            </form>
+        </div>
+
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <nav class="navbar navbar-expand-md navbar-light" style="margin-top: -4%;">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar" style="width: 100%;">
+                <ul class="navbar-nav  nn" style="width: 100%;">
+                    <li class="nav-item" style="margin-left: 2.5%">
+                        <a class="nav-link" href="bank.html" style="text-align: center;">首页</a>
+                    </li>
+                    <li class="nav-item dropdown" style="margin-left: 2.5%">
+                        <a class="nav-link" href="bankFinance.html" id="navbardrop">
+                            银行金融
+                        </a>
+                        <span class="btn dropdown-toggle caret" data-bs-toggle="dropdown" style=""></span>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="licai.html">理财产品</a>
+                            <a class="dropdown-item" href="fund.html">基金</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown" style="margin-left: 2.5%">
+                        <a class="nav-link" href="SelfFinance.html" id="navbardrop2">
+                            个人金融
+                        </a>
+                        <span class="btn dropdown-toggle caret" data-bs-toggle="dropdown" style=""></span>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="depositAndAccounts.html">存款与账户</a>
+                            <a class="dropdown-item" href="Remittance.html">转账汇款</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown" style="margin-left: 2.5%">
+                        <a class="nav-link" href="Card.html" id="navbardrop3">
+                            银行卡
+                        </a>
+                        <span class="btn dropdown-toggle caret" data-bs-toggle="dropdown" style=""></span>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="creditCard.html">信用卡产品</a>
+                            <a class="dropdown-item" href="SpecialServers.html">特色服务</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown"  style="margin-left: 2.5%">
+                        <a class="nav-link" href="FinancialMarket.html" id="navbardrop4">
+                            金融市场
+                        </a>
+                        <span class="btn dropdown-toggle caret" data-bs-toggle="dropdown" style=""></span>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="FinancialMarket.html">WE人民币指数</a>
+                            <a class="dropdown-item" href="Loan.html">贷款</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown" style="margin-left: 2.5%">
+                        <a class="nav-link" href="ElectronicBanking.html" id="navbardrop5">
+                            网上银行
+                        </a>
+                        <span class="btn dropdown-toggle caret" data-bs-toggle="dropdown" style=""></span>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="ElectronicBanking.html">电话银行</a>
+                            <a class="dropdown-item" href="EnterpriseOnlineBanking.html">企业网上银行</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown" style="margin-left: 2.5%">
+                        <a class="nav-link " href="CompanyInformation.html" id="navbardrop6">
+                            投资者
+                        </a>
+                        <span class="btn dropdown-toggle caret" data-bs-toggle="dropdown" style=""></span>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="GovernanceCorporate.html">银行治理</a>
+                            <a class="dropdown-item" href="CompanyInformation.html">银行资料</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown" style="margin-left: 2.5%">
+                        <a class="nav-link" href="WeAbout.html" id="navbardrop7" >
+                            关于WE
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="container middle">
+        <div class="row all-row">
+            <ul class="breadcrumb">
+                <li>当前位置:&nbsp&nbsp&nbsp&nbsp</li>
+                <li class="breadcrumb-item">首页</li>
+                <li class="breadcrumb-item">网上银行</li>
+                <li class="breadcrumb-item active">企业网上银行</li>
+            </ul>
+            <div class="row CRI">
+                <h2 class="col-lg-9 col-md-9 col-sm-12">企业网上银行</h2>
+                <!-- 右对齐 -->
+                <div class="dropdown col-lg-3 col-md-3 col-sm-12">
+                    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-emoji-laughing col-lg-3" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                            <path d="M12.331 9.5a1 1 0 0 1 0 1A4.998 4.998 0 0 1 8 13a4.998 4.998 0 0 1-4.33-2.5A1 1 0 0 1 4.535 9h6.93a1 1 0 0 1 .866.5zM7 6.5c0 .828-.448 0-1 0s-1 .828-1 0S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 0-1 0s-1 .828-1 0S9.448 5 10 5s1 .672 1 1.5z"/>
+                        </svg>
+                        网银登录
+                    </button>
+                    <ul class="dropdown-menu fade">
+                        <li><a class="dropdown-item" href="#">个人客户网银登录</a></li>
+                        <li><a class="dropdown-item" href="#">个人贵宾网银登录</a></li>
+                        <li><a class="dropdown-item" href="#">企业客户网银登录</a></li>
+                    </ul>
+                </div>
+            </div>
+            <p class="title">企业网上银行服务简介</p>
+            <div class="TRS_Editor col-sm-12"><p>We银行不断完善客户服务体系、加强产品创新，向各类企业提供金融服务，致力成为企业客户高效、专业、能够满足全面需求的合作伙伴。</p>
+                <p>基于对企业财务高效运作管理需求的深刻理解，以及积累的全球化现金管理经验，We银行推出安全、稳定、覆盖海内外机构网点的网上银行。基于统一的、整合了国内和海外、个人与企业服务的先进的系统处理平台，为企业搭建安全便捷的账户管理、资金汇划及投资服务通道，提升企业财务管理效率，促进企业财富与价值增值，助力企业腾飞。</p>
+                <p>&nbsp;</p>
+                <p align="center"><img src="images/sxy-bank.png" style="width: 100%"></p>
+                <p><strong>两大服务渠道--WEB浏览器和银企对接</strong></p>
+                <p>WEB浏览器:企业通过WEB浏览器访问We银行网站，登录网上银行，即可享受We银行网上银行提供的各项企业金融服务。</p>
+                <p>银企对接:企业将ERP或财务系统与We银行网上银行系统无缝对接后，企业财务人员通过操作已熟练掌握的自身ERP或内部财务系统，即可享受We银行网上银行各项企业金融服务。</p>
+                <p><strong>服务特色</strong></p>
+                <p>1. 操作更安全：用户名、网银密码加动态口令或USBKEY密码的双因素认证方式，确保客户账户和资金安全；</p>
+                <p>2. 汇划更灵活：个性化的授权模式定制、批量交易委托、严格锁定收款人的服务功能，满足企业灵活的资金汇划需求；</p>
+                <p>3. 对账更便捷：在线进行账户对账，省却纸质对账单邮寄的繁琐，轻松提高财务管理效率；</p>
+                <p>4. 财富更增值：网上第三方存管、银期转账、资产托管服务为企业理财提供便捷通道，帮助企业及时把握投资机会，实现收益增长；</p>
+                <p>5. 管理更轻松：客户留言互动、到账信息查询、交易数据下载等服务方便企业客户内部信息沟通、追踪交易进程；</p>
+                <p>6. 全球金融服务：目前，中行网银海外服务范围已拓展至27个国家和地区，充分发挥了中行在海外金融服务方面的一贯优势。</p>
+                <p><strong>如何申请</strong></p>
+                <p>企业需携带组织机构代码证（副本）、营业执照（副本）、经办人的有效身份证件原件、单位介绍信、加盖银行预留印鉴的申请表格等资料，到开户行申请网上银行服务。</p>
+                <p><strong>服务提示</strong></p>
+                <p>想了解更多关于We银行网上银行的情况，欢迎随时与当地We银行联络，也可拨打We银行客户服务中心电话66666进行咨询。&nbsp;</p></div>
+            <div class="row row-123456">
+                <!--1-->
+                    <div class="row col-lg-5">
+                        <div class="col-lg-4 row-left">
+                            <p>账户管理</p>
+                            <img src="images/sxy2.png">
+                        </div>
+                        <div class="row col-lg-8 row-right">
+                            <div class="col-lg-6">超级管理员</div>
+                            <div class="col-lg-6">境外他行账户查询</div>
+                            <div class="col-lg-6">银企对账</div>
+                            <div class="col-lg-6">账户管理</div>
+                        </div>
+                    </div>
+                <!--2-->
+                <div class="row col-lg-5">
+                    <div class="col-lg-4 row-left">
+                        <p>转账汇款</p>
+                        <img src="images/sxy3.png">
+                    </div>
+                    <div class="row col-lg-8 row-right">
+                        <div class="col-lg-6">转账汇款</div>
+                    </div>
+                </div>
+                <!--3-->
+                <div class="row col-lg-5">
+                    <div class="col-lg-4 row-left">
+                        <p>代收代付</p>
+                        <img src="images/sxy4.png">
+                    </div>
+                    <div class="row col-lg-8 row-right">
+                        <div class="col-lg-6">实时纳税</div>
+                        <div class="col-lg-6">快捷代收</div>
+                        <div class="col-lg-6">快捷代发</div>
+                        <div class="col-lg-6">代发工资</div>
+                    </div>
+                </div>
+                <!--4-->
+                <div class="row col-lg-5">
+                    <div class="col-lg-4 row-left">
+                        <p>汇票服务</p>
+                        <img src="images/sxy5.png">
+                    </div>
+                    <div class="row col-lg-8 row-right">
+                        <div class="col-lg-6">汇票服务</div>
+                    </div>
+                </div>
+                <!--5-->
+                <div class="row col-lg-5">
+                    <div class="col-lg-4 row-left">
+                        <p>现金管理</p>
+                        <img src="images/sxy6.png">
+                    </div>
+                    <div class="row col-lg-8 row-right">
+                        <div class="col-lg-6">管理跨行现金管理</div>
+                    </div>
+                </div>
+                <!--6-->
+                <div class="row col-lg-5">
+                    <div class="col-lg-4 row-left">
+                        <p>贷款服务</p>
+                        <img src="images/sxy1.png">
+                    </div>
+                    <div class="row col-lg-8 row-right">
+                        <div class="col-lg-6">中小企业贷款</div>
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-3">
+                <ul class="pagination col-lg-8 "style="margin:10px;margin-left: 30%">
+                    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                    <li class="page-item  active"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container foot">
+        <div class="phone">
+            <p><span style="font-weight: 700;">客户服务与投诉热线：</span><span style="color: #3197e9c4">156466</span>(中国境内)；
+                <span style="font-weight: 700;">信用卡客服与投诉热线：</span><span style="color: #3197e9c4">4002562453456</span>
+                (中国境内)； <span style="color: #3197e9c4">+86-10-1354646513</span>(中国境外)</p>
+            <br>
+        </div>
+        <hr>
+        <div class="cc">
+            <div class="area">
+                <p>
+                    <a>201958304155</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+                    <a>孙小宇</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+                    <a>18723371508</a>
+                </p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Copyright@ LSX-Software2</p>
+            </div>
+        </div>
+        <div class="foot-logo">
+            <img src="images/logo.png" alt="#">
+        </div>
+    </div>
+</div>
+<div id="wrapper">
+    <canvas id="canvas" width="1950px" height="800px"></canvas>
+    <canvas id="canvasbg" width="1950px" height="800px"></canvas>
+</div>
+<script src="js/background.js" charset="utf-8"></script>
+</body>
+</html>

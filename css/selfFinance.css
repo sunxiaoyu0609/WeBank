@@ -1,0 +1,255 @@
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+.align-middle{
+    width: 75.6%;
+    margin-left: 12.2%;
+    height: auto;
+    padding: 0;
+}
+.breadcrumb li a{
+    text-decoration: none;
+    color: darkgray;
+}
+.breadcrumb li a:hover{
+    color: darkblue;
+}
+.selfFin{
+    width: 100%;
+    height: 1300px;
+}
+.selfFin .b-carousel{
+    width: 77%;
+    height: 300px;
+    background-color: ghostwhite;
+    float: left;
+}
+.selfFin .b-carousel .carousel{
+    height: 100%;
+}
+.selfFin .b-carousel .carousel .carousel-indicators{
+    bottom: 5%;
+}
+.selfFin .b-carousel .carousel .carousel-inner{
+    height: 100%;
+}
+.selfFin .b-carousel .carousel .carousel-item{
+    height: 100%;
+}
+.selfFin .b-carousel img{
+    height: 90%;
+}
+.selfFin .b-carousel .carousel .carousel-control-prev,.carousel-control-next{
+    background-color: black;
+    width: 5%;
+    height: 15%;
+    top: 35%;
+}
+
+.consumer{
+    width: 21%;
+    float: right;
+    background-color: white;
+    overflow: hidden;
+}
+.consumer .h6{
+    text-align: center;
+}
+.consumer span{
+    display: inline-block;
+    float: left;
+}
+.consumer div p{
+    margin-bottom: 2%;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:4;
+    overflow: hidden;
+}
+
+.content1{
+    width: 77%;
+    margin-top: 3%;
+    float: left;
+    background-color: #ffffff;
+}
+.content1 span{
+    display: inline-block;
+    float: left;
+}
+.content1 .notice{
+    width: 50%;
+    float: left;
+    border-right: 1px dashed gainsboro;
+}
+.content1 div div p{
+    width: 90%;
+    margin-bottom: 1%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.content1 .discount{
+    width: 50%;
+    float: right;
+}
+.content1 .h4{
+    color: black;
+    margin: 1% 0 2% 2%;
+}
+.content1 .more{
+    float: right;
+    right: 1%;
+    color: brown;
+    margin-right: 2%;
+}
+.content1 .more:hover{
+    font-weight: 900;
+}
+
+.content2{
+    float: left;
+    margin-top: 2%;
+    background-color: #ffffff;
+    width: 77%;
+    border-bottom: 2px solid gainsboro;
+    box-shadow: 3px 9px 8px -5px gainsboro;
+}
+.content2 header{
+    width: 100%;
+}
+.content2 header .head1{
+    width: 5%;
+    float: left;
+    border-bottom: 1px solid gray;
+    height: 50px;
+}
+.content2 header .self{
+    width: 23%;
+    float: left;
+    border: 1px solid gray;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 15px;
+}
+.content2 header .head3{
+    float: left;
+    height: 50px;
+    border-bottom: 1px solid gray;
+    width: 72%;
+}
+.content2 .c-body{
+    width: 100%;
+}
+.content2 .c-body .c-body1{
+    float: left;
+    width: 50%;
+    border-right: 1px dashed;
+}
+.content2 .c-body .c-body1 .product-notice{
+    width: 100%;
+}
+.content2 .c-body .c-body1 .account{
+    float: left;
+    width: 100%;
+}
+
+.content2 .c-body .c-body1 .product-notice ul,.c-body2 ul{
+    margin-top: 3%;
+    margin-bottom: 0;
+}
+.content2 a.title{
+    font-size: large;
+}
+.content2 ul{
+    padding-left: 3%;
+}
+.content2 .c-body li{
+    width: 90%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.content2 .more{
+    float: right;
+    margin-right: 5%;
+    cursor: pointer;
+    color: brown;
+}
+.content2 .c-body .c-body2{
+    float: left;
+    width: 50%;
+}
+hr{
+    width: 77%;
+}
+.align-middle .area{
+    width: 77%;
+    float: left;
+    margin-top: 2%;
+    background-color: white;
+}
+.align-middle .area .abroad,.accounts{
+    width: 32%;
+    float: left;
+}
+.area .p1{
+    width: 50%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.align-middle .area .p0{
+    float: left;
+}
+.align-middle .area .accounts{
+    margin-left: 2%;
+}
+.align-middle .area .transfer{
+    float: right;
+    width: 32%;
+}
+.area div img{
+    width: 100%;
+}
+.accounts p.h6{
+    height: 20px;
+    overflow: hidden;
+}
+
+.connection{
+    float: right;
+    width: 21%;
+    margin-top: -59%;
+    border-top: 1px dashed gray;
+    border-bottom: 1px dashed gray;
+}
+.connection img{
+    width: 20%;
+    float: left;
+    margin-left: 7%;
+    margin-top: 7%;
+}
+.connection p{
+    margin-top: 4%;
+    float: left;
+    margin-left: 3%;
+    cursor: pointer;
+}
+.info{
+    width: 21%;
+    height: 19%;
+    float: right;
+    background-color: white;
+    margin-top: -48%;
+    overflow: hidden;
+}
+.info ul li:hover{
+    color: brown;
+}
+.info ul li a{
+    color: currentcolor;
+}

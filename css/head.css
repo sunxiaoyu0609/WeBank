@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: transparent;
+}
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+body{
+    background-color: #f2f2f2;
+    font: 12px/26px Verdana,Geneva;
+    color: #535353;
+    margin: auto;
+}
+.top{
+    position: relative;
+    overflow: hidden;
+    width:70%;
+    margin: auto;
+}
+.top-link1 a{
+    float: left;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 34px;
+    margin-left: 1.5em;
+    color: #535353;
+}
+.top-link2{
+    position: absolute;
+    float: right;
+    margin-left: 600.6px;
+}
+.top-link2 .firsticon{
+    line-height: 29px;
+    font-size: 14px;
+    float: left;
+    margin-left: 1.5em;
+}
+.top-link2 .secondicon{
+    float: left;
+    margin-left: 1.5em;
+}
+.top-link2 .fouricon{
+    line-height: 29px;
+    font-size: 12px;
+    float: left;
+    margin-left: -7.5em;
+}
+.top-link2 .secondicon a{
+    text-decoration: none;
+    color: #535353;
+    font-size: 12px;
+    line-height: 34px;
+}
+.top-link2 .thirdicon{
+    float: left;
+    margin-left: 1.5em;
+}
+.top-link2 .thirdicon a{
+    text-decoration: none;
+    color: #535353;
+    line-height: 34px;
+}
+
+.header{
+    border: 1px solid #dadada;
+    background: #fff;
+    box-shadow: 0 2px 6px #eeeeee;
+    border-radius: 5px;
+    width: 75.1%;
+    height: auto;
+    margin: auto;
+}
+.header .header1{
+    height: auto;
+    overflow: hidden;
+    clear: both;
+    border-bottom: 3px solid #3197e9c4;
+}
+.header .header1 .logo{
+    height: 90px;
+    display: inline;
+}
+.header .header1 .logo a{
+    background-size: contain;
+    display: block;
+    width: 171px;
+    height: 120px;
+    margin-left: 33px;
+    margin-top: -21px;
+}
+.header .header1 form{
+    height: 40%;
+    margin-top: 20px;
+}
+.header .header1 ul{
+    margin-top: 20px;
+}
+.header .header1{
+    padding-top: 20px;
+    margin-left: 0;
+    margin-right: 0;
+}
+.header .header1 ul li{
+    border: 0;
+}
+.header .header1 #s1{
+    font-size: 13px;
+    width: 75%;
+}
+.header .header1 #s2{
+    font-size: 13px;
+    width: 35%;
+}
+.navbar{
+    font-size: 17px;
+}
+.nn>li{
+    width: 10%;
+    padding-top: 15px;
+}
+.nn>li>a{
+    font-size: 80%;
+    padding: 0;
+    float: left;
+}
+.nn>li>span{
+    margin-left: 5px;
+    border: 0;
+    padding: 0;
+    float: left;
+}

@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container>.header>nav{
+    z-index: 1;
+}
+.all-row>.breadcrumb{
+    margin-left: 0;
+}
+.middle{
+    width: 76.1%;
+    background: white;
+    height: auto;
+}
+.dropdown>button{
+    background: #3197e9c4;
+    border: white;
+}
+.learnmore{
+    text-decoration: none;
+    color: #535353;
+}
+.all-row>.breadcrumb{
+    margin-left: 0;
+}
+.row-l,.row-r{
+    margin-top:10px;
+}
+.CRI>.dropdown{
+    padding-left:20px;
+}
+.CRI{
+    box-shadow: 0 2px 6px #eeeeee;
+    margin-left: 0;
+}
+.title{
+    margin:20px 0;
+}
+.row-123456>div{
+    border-radius: 10px;
+    border: 1px gainsboro solid;
+    margin: 10px 35px;
+    padding:0 ;
+    box-shadow: 0 2px 6px #eeeeee;
+}
+.row-123456>div>.row-left{
+    border-right: 1px dotted gainsboro;
+}
+.row-123456>div>.row-left>p{
+    margin: 0;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.row-123456>div>.row-left>img{
+    margin-bottom: 10px;
+}
+.row-123456>div>.row-right>div{
+    font-size: 10px;
+    height: 20px;
+    margin-top: 20px;
+    /*超出部分隐藏*/
+    overflow: hidden;
+    /*强制在一行*/
+    white-space: nowrap;
+    /*文本超出部分省略*/
+    text-overflow: ellipsis;
+    list-style-type: circle;
+}

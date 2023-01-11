@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>201958304155孙小宇-银行治理</title>
+    <link rel="icon" href="images/logo.png" type="images/x-icon">
+    <link href="css/head.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/GovernanceCorporate.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/background.css">
+    <link rel="stylesheet" href="css/footer.css"/>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" ></script>
+</head>
+<body>
+<div class="container">
+    <div class="alert alert-dark alert-dismissible" style="width: 76.1%;margin: 0 auto;">
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        Tips：这是根据bootstrap栅格系统做的响应式界面
+    </div>
+    <!--头部框-->
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <div class="container-fluid top" style="width: 83.1%;">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse top-link1" id="mynavbar">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">简体中文</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">繁体中文</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">English</a>
+                    </li>
+                    <li class="nav-item" id="login">
+                        <a class="nav-link" href="#">用户登录</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">注销账号</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--LOGO和二级菜单-->
+    <div class="header">
+        <div class="header1 row">
+            <div class="logo col-lg-3 col-sm-12">
+                <a href="#"><img src="images/logo.png" style="width: 100%"></a>
+            </div>
+            <ul class="list-group list-group-horizontal col-lg-5 col-sm-12">
+                <li class="list-group-item"><a style="font-size: 15px;">服务热线:</a><a style="color: #5cacff;cursor: pointer">123456</a></li>
+                <li class="list-group-item"><a style="font-size: 15px;">信用卡热线:</a><a style="color: #5cacff;cursor: pointer">400123456</a></li>
+            </ul>
+            <form class="d-flex col-lg-4 col-sm-12">
+                <input class="form-control me-2" type="text" placeholder="请输入检索关键词" id="s1">
+                <button class="btn btn-primary" type="button" id="s2">搜索</button>
+            </form>
+        </div>
+
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <nav class="navbar navbar-expand-md navbar-light" style="margin-top: -4%;">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar" style="width: 100%;">
+                <ul class="navbar-nav  nn" style="width: 100%;">
+                    <li class="nav-item" style="margin-left: 2.5%">
+                        <a class="nav-link" href="bank.html" style="text-align: center;">首页</a>
+                    </li>
+                    <li class="nav-item dropdown" style="margin-left: 2.5%">
+                        <a class="nav-link" href="bankFinance.html" id="navbardrop">
+                            银行金融
+                        </a>
+                        <span class="btn dropdown-toggle caret" data-bs-toggle="dropdown" style=""></span>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="licai.html">理财产品</a>
+                            <a class="dropdown-item" href="fund.html">基金</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown" style="margin-left: 2.5%">
+                        <a class="nav-link" href="SelfFinance.html" id="navbardrop2">
+                            个人金融
+                        </a>
+                        <span class="btn dropdown-toggle caret" data-bs-toggle="dropdown" style=""></span>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="depositAndAccounts.html">存款与账户</a>
+                            <a class="dropdown-item" href="Remittance.html">转账汇款</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown" style="margin-left: 2.5%">
+                        <a class="nav-link" href="Card.html" id="navbardrop3">
+                            银行卡
+                        </a>
+                        <span class="btn dropdown-toggle caret" data-bs-toggle="dropdown" style=""></span>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="creditCard.html">信用卡产品</a>
+                            <a class="dropdown-item" href="SpecialServers.html">特色服务</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown"  style="margin-left: 2.5%">
+                        <a class="nav-link" href="FinancialMarket.html" id="navbardrop4">
+                            金融市场
+                        </a>
+                        <span class="btn dropdown-toggle caret" data-bs-toggle="dropdown" style=""></span>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="FinancialMarket.html">WE人民币指数</a>
+                            <a class="dropdown-item" href="Loan.html">贷款</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown" style="margin-left: 2.5%">
+                        <a class="nav-link" href="ElectronicBanking.html" id="navbardrop5">
+                            网上银行
+                        </a>
+                        <span class="btn dropdown-toggle caret" data-bs-toggle="dropdown" style=""></span>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="ElectronicBanking.html">电话银行</a>
+                            <a class="dropdown-item" href="EnterpriseOnlineBanking.html">企业网上银行</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown" style="margin-left: 2.5%">
+                        <a class="nav-link " href="CompanyInformation.html" id="navbardrop6">
+                            投资者
+                        </a>
+                        <span class="btn dropdown-toggle caret" data-bs-toggle="dropdown" style=""></span>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="GovernanceCorporate.html">银行治理</a>
+                            <a class="dropdown-item" href="CompanyInformation.html">银行资料</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown" style="margin-left: 2.5%">
+                        <a class="nav-link" href="WeAbout.html" id="navbardrop7" >
+                            关于WE
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="container middle">
+        <div class="row all-row">
+            <ul class="breadcrumb">
+                <li>当前位置:&nbsp&nbsp&nbsp&nbsp</li>
+                <li class="breadcrumb-item">首页</li>
+                <li class="breadcrumb-item">网上银行 </li>
+                <li class="breadcrumb-item active">银行治理</li>
+            </ul>
+            <div class="row CRI">
+                <h2 class="col-lg-9">公司治理</h2>
+                <!-- 右对齐 -->
+                <div class="dropdown col-lg-3">
+                    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-emoji-laughing col-lg-3" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                            <path d="M12.331 9.5a1 1 0 0 1 0 1A4.998 4.998 0 0 1 8 13a4.998 4.998 0 0 1-4.33-2.5A1 1 0 0 1 4.535 9h6.93a1 1 0 0 1 .866.5zM7 6.5c0 .828-.448 0-1 0s-1 .828-1 0S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 0-1 0s-1 .828-1 0S9.448 5 10 5s1 .672 1 1.5z"/>
+                        </svg>
+                        网银登录
+                    </button>
+                    <ul class="dropdown-menu fade">
+                        <li><a class="dropdown-item" href="#">个人客户网银登录</a></li>
+                        <li><a class="dropdown-item" href="#">个人贵宾网银登录</a></li>
+                        <li><a class="dropdown-item" href="#">企业客户网银登录</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row-2-l col-lg-4 col-md-12 col-sm-12">
+                <div class="treebox">
+                    <ul class="menu">
+                        <li class="level1">
+                            <a href="#none"><em class="ico ico1"></em>公司公告<i class="down"></i><span style="margin-left: 75px"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                                <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/></svg></span></a>
+                            <ul class="level2">
+                                <li><a href="javascript:;">A股</a></li>
+                                <li><a href="javascript:;">H股</a></li>
+                            </ul>
+                        </li>
+                        <li class="level1">
+                            <a href="#none"><em class="ico ico2"></em>概述介绍<i></i><span style="margin-left: 75px"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                                <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/></svg></span></a>
+                            <ul class="level2">
+                                <li><a href="javascript:;">股东大会</a></li>
+                                <li><a href="javascript:;">董事会</a></li>
+                                <li><a href="javascript:;">董事会</a></li>
+                            </ul>
+                        </li>
+                        <li class="level1">
+                            <a href="#none"><em class="ico ico3"></em>推介资料<i></i><span style="margin-left: 75px"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                                <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/></svg></span></a>
+                            <ul class="level2">
+                                <li><a href="javascript:;">A股</a></li>
+                            </ul>
+                        </li>
+                        <li class="level1">
+                            <a href="#none"><em class="ico ico4"></em>财务报告<i></i><span style="margin-left: 75px"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                                <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/></svg></span></a>
+                            <ul class="level2">
+                                <li><a href="javascript:;">A股</a></li>
+                                <li><a href="javascript:;">H股</a></li>
+                            </ul>
+                        </li>
+                        <li class="level1">
+                            <a href="#none"><em class="ico ico5"></em>网上快速贷款<i></i></a>
+                        </li>
+                        <li class="level1">
+                            <a href="#none"><em class="ico ico5"></em>个人委托贷款<i></i></a>
+                        </li>
+                        <li class="level1">
+                            <a href="#none"><em class="ico ico5"></em>常见问题<i></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row-2-r col-lg-8 col-md-12 col-sm-12">
+                <ul class="nav nav-tabs">
+                    <li class="nav-item" style="width: 33%">
+                        <a class="nav-link active"  data-bs-toggle="tab" href="#home">A股公告</a>
+                    </li>
+
+                    <li class="nav-item" style="width: 33%">
+                        <a class="nav-link" data-bs-toggle="tab" href="#profile">H股公告</a>
+                    </li>
+
+                    <li class="nav-item" style="width: 33%">
+                        <a class="nav-link" data-bs-toggle="tab" href="#contact">其他公告</a>
+                    </li>
+
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane fade show active" id="home">
+                        <p style="color:rgb(128, 128, 128);">
+                            12-16WE银行股份有限公司H股公告<br>
+                            12-03WE银行股份有限公司H股公告<br>
+                            12-03WE银行股份有限公司关于在50亿美元中期票据计划下发行3亿美元中期票据刊发发售通...<br>
+                            12-02WE银行股份有限公司H股公告<br>
+                            11-13WE银行股份有限公司第八届董事会第三十三次会议决议公告
+
+                        </p>
+                    </div>
+                    <div class="tab-pane fade" id="profile">
+                        <p style="color:rgb(128, 128, 128);">
+                            12-16WE银行股份有限公司H股公告<br>
+                            12-03WE银行股份有限公司H股公告<br>
+                            12-03WE银行股份有限公司关于在50亿美元中期票据计划下发行3亿美元中期票据刊发发售通...<br>
+                            12-02WE银行股份有限公司H股公告<br>
+                            11-13WE银行股份有限公司第八届董事会第三十三次会议决议公告
+
+                        </p>
+                    </div>
+                    <div class="tab-pane fade" id="contact">
+                        <p style="color:rgb(128, 128, 128);">
+                            12-16WE银行股份有限公司H股公告<br>
+                            12-03WE银行股份有限公司H股公告<br>
+                            12-03WE银行股份有限公司关于在50亿美元中期票据计划下发行3亿美元中期票据刊发发售通...<br>
+                            12-02WE银行股份有限公司H股公告<br>
+                            11-13WE银行股份有限公司第八届董事会第三十三次会议决议公告
+
+                        </p>
+                    </div>
+            </div>
+
+                <ul class="nav nav-tabs">
+                    <li class="nav-item" style="width: 33%">
+                        <a class="nav-link active"  data-bs-toggle="tab" href="#home2">A股财务公告</a>
+                    </li>
+
+                    <li class="nav-item" style="width: 33%">
+                        <a class="nav-link" data-bs-toggle="tab" href="#profile2">H股财务报告</a>
+                    </li>
+
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane fade show active" id="home2">
+                        <p style="color:rgb(128, 128, 128);">
+                            10-29WE银行股份有限公司2021年第三季度报告<br>
+                            08-30WE银行股份有限公司2021年中期财务报表及审阅报告<br>
+                            08-30WE银行股份有限公司2021年半年度报告摘要<br>
+                            08-30WE银行股份有限公司2021年半年度报告<br>
+                            04-29WE银行股份有限公司2021年第一季度报告正文
+                        </p>
+                    </div>
+                    <div class="tab-pane fade" id="profile2">
+                        <p style="color:rgb(128, 128, 128);">
+                            10-292021年第三季度报告<br>
+                            09-292021年中期报告（印刷版）<br>
+                            08-302021年中期业绩公告<br>
+                            04-292020年年度报告（印刷版）<br>
+                            04-292021年第一季度报告
+                        </p>
+                    </div>
+                </div>
+        </div>
+            <div class="container mt-3">
+                <div id="accordion">
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
+                                公司治理总览
+                            </a>
+                        </div>
+                        <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+                            <div class="card-body">
+                                本行将卓越的公司治理作为重要目标，不断追求公司治理最佳实践，把加强党的领导与完善公司治理有机统一起来。按照资本市场监管和行业监管规则要求，不断完善以股东大会、董事会、监事会、高级管理层为主体的公司治理架构，“三会一层”职权明晰、运行顺畅，董事会及监事会各专业委员会切实履行职责、积极有效运作，公司治理水平持续提升。
+
+                                不断完善公司治理架构和制度流程。本行坚持孰严原则，持续跟进并落实资本市场监管要求，对公司章程、各专业委员会议事规则等进行全面系统梳理。设立董事会企业文化与消费者权益保护委员会，履行集团层面文化建设和消费者权益保护职责。
+
+                                着力提升公司治理的运作机制。切实保护中小股东的知情权、参与权和决策权，在北京和香港以现场会议方式召开年度股东大会，两地会场通过视频连接，两地股东均可亲身参会，并提供A股网络投票方式，切实保障中小股东权益的实现。以不断优化董事会运作机制、信息披露机制、利益相关者机制的协调运作为主要着力点，持续提高董事会工作的建设性，支持董事会科学、高效决策，提升透明度，积极履行对股东、客户、员工、社会等利益相关者的责任。
+
+                                努力推动董事会的多元化建设。本行已制定《中国银行股份有限公司董事会成员多元化政策》，列明本行关于董事会成员多元化所持立场以及在实现过程中持续采取的方针。本行董事会成员的委任以董事会整体良好运作所需的技能和经验为本，同时从多个方面充分考虑董事会成员多元化的目标和要求，包括但不限于监管要求、董事性别、年龄、文化及教育背景、地区、专业经验、技能、知识和任期等。本行将上述多元化政策要求贯穿于董事选聘的全过程。
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
+                                董事会
+                            </a>
+                        </div>
+                        <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+                            <div class="card-body">
+                                董事会
+                                董事会是本行的决策机构，对股东大会负责。依照本行《公司章程》，董事会主要行使下列职权：召集股东大会及执行股东大会决议，决定本行的战略方针、经营计划和重大投资方案（依本行《公司章程》需提交股东大会批准的除外），制定年度财务预算、决算及利润分配、弥补亏损等重大方案，聘任或解聘本行董事会专业委员会委员和高级管理人员，审定本行基本管理制度、内部管理架构及重要分支机构设置，审定本行公司治理政策，负责高级管理人员的绩效考核及重要奖惩事项，听取本行高级管理层的工作汇报并检查高级管理层的工作等。
+
+                                董事会下设战略发展委员会、企业文化与消费者权益保护委员会、审计委员会、风险政策委员会、人事和薪酬委员会及关联交易控制委员会，负责从不同方面协助董事会履行职责。
+
+                                目前，本行董事会由15名成员组成，除董事长外，包括3名执行董事、5名非执行董事、6名独立董事。董事由股东大会选举，任期三年，从中国银保监会核准之日起计算。董事任期届满，可连选连任，法律、法规和监管有特别规定的除外。
+
+                                本行制定了《中国银行股份有限公司董事会成员多元化政策》，列明本行关于董事会成员多元化所持立场以及在实现过程中持续采取的方针。
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
+                                监事会
+                            </a>
+                        </div>
+                        <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+                            <div class="card-body">
+                                监事会
+                                监事会是本行的监督机构，对股东大会负责。依照本行《公司章程》，监事会主要行使下列职权：检查、监督本行的财务活动，监督本行董事会、高级管理层及其成员履职行为的合法、合规性。
+
+                                监事会下设履职尽职监督委员会、财务与内部控制监督委员会，协助监事会履行职责。
+
+                                目前，本行监事会现有监事6名，包括1名股东监事（监事长）、3名职工监事和2名外部监事。根据本行《公司章程》规定，监事每届任期三年，任期届满可连选连任，法律、法规、监管机构和本行公司章程有特别规定的除外。股东监事和外部监事由股东大会选举产生或更换。
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseFour">
+                                高级管理层
+                            </a>
+                        </div>
+                        <div id="collapseFour" class="collapse" data-bs-parent="#accordion">
+                            <div class="card-body">
+                                高级管理层是本行的执行机构，对董事会负责。高级管理层以行长为代表，副行长等高级管理人员协助行长工作。行长的主要职责包括主持本行的日常行政、业务、财务管理工作；组织实施董事会决议；拟订本行的经营计划和投资方案；拟订本行的基本管理制度及具体规章；提名其他高级管理人员人选；拟订本行的薪酬福利和奖惩方案等。
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseFive">
+                                公司治理规范性文件
+                            </a>
+                        </div>
+                        <div id="collapseFive" class="collapse" data-bs-parent="#accordion">
+                            <div class="card-body">
+                                《中国银行股份有限公司章程》
+
+                                《中国银行股份有限公司股东大会议事规则》
+
+                                《中国银行股份有限公司董事会议事规则》
+
+                                《中国银行股份有限公司监事会议事规则》
+
+                                《中国银行股份有限公司信息披露政策》
+
+                                《中国银行股份有限公司内幕信息知情人管理办法》
+
+                                《中国银行股份有限公司暂缓与豁免信息披露管理办法(2016年版)》
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseSix">
+                                股东大会
+                            </a>
+                        </div>
+                        <div id="collapseSix" class="collapse" data-bs-parent="#accordion">
+                            <div class="card-body">
+                                东大会是本行的权力机构。股东大会负责对本行重大事项做出决策，包括审议批准利润分配方案、年度财务预算方案和决算方案、注册资本的改变、发行债券及其他证券、合并、分立以及修改公司章程、选举和更换董事、由股东代表出任的监事和外部监事并决定其报酬事项等。
+
+                                中国银行股份有限公司（以下简称“本行”）股东提名人员参选董事程序如下：
+
+                                1、持有或合并持有本行发行在外有表决权股份总数的百分之五以上股份的股东可以以书面提案方式向股东大会提出董事候选人，但提名的人数必须符合章程的规定（本行章程规定董事会由五至十七名董事组成），并且不得多于拟选人数。股东向本行提出的上述提案应当在股东大会召开日前至少十四天送达本行。
+
+                                2、单独或合并持有本行表决权股份总数的百分之一以上股份的股东可以提出独立董事候选人。
+
+                                3、提名人在提名前应当征得被提名人的同意。有关提名董事的意图以及被提名人表明愿意接受提名的书面通知，以及被提名人情况的有关书面材料，应在股东大会举行日期不少于七天前发给本行。
+
+                                4、本行给予有关提名人以及被提名人提交前述通知及文件的期间（该期间于股东大会会议通知发出之日的次日计算）应不少于七天。
+
+                                5、独立董事的提名人应当充分了解被提名人职业、学历、职称、详细的工作经历、全部兼职等情况，并对其担任独立董事的资格和独立性发表意见，被提名人应当就其本人与本行之间不存在任何影响其独立客观判断的关系发表公开声明。在选举独立董事的股东大会召开前，本行董事会应当按照规定公布上述内容。
+
+                                6、由股东提名的董事候选人在股东大会审议批准并由监管机构对其任职资格进行审查后正式担任本行董事。
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="container mt-3">
+                <ul class="pagination col-lg-8" style="margin:10px;margin-left: 30%">
+                    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                    <li class="page-item  active"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                </ul>
+            </div>
+    </div>
+    <div class="container foot row">
+        <div class="col-lg-12 phone">
+            <p>
+                <span style="font-weight: 700;">客户服务与投诉热线：</span>
+                <span style="color: #3197e9c4">156466</span>(中国境内)；
+                <span style="font-weight: 700;">信用卡客服与投诉热线：</span>
+                <span style="color: #3197e9c4">4002562453456</span>
+                (中国境内)；
+                <span style="color: #3197e9c4">+86-10-1354646513</span>(中国境外)
+            </p>
+            <br>
+        </div>
+        <hr>
+        <div class="cc col-lg-9 col-md-12 col-sm-12">
+            <div class="area">
+                <p>
+                    <a>201958304155</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+                    <a>孙小宇</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+                    <a>18723371508</a>
+                </p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Copyright@ LSX-Software2</p>
+            </div>
+        </div>
+        <div class="col-lg-3 foot-logo col-md-12 col-sm-12">
+            <img src="images/logo.png" alt="#">
+        </div>
+    </div>
+</div>
+<div id="wrapper">
+    <canvas id="canvas" width="1950px" height="800px"></canvas>
+    <canvas id="canvasbg" width="1950px" height="800px"></canvas>
+</div>
+<script src="js/background.js" charset="utf-8"></script>
+<script src="js/Loan.js"></script>
+<script>
+    //等待dom元素加载完毕.
+    $(function(){
+        $(".treebox .level1>a").click(function(){
+            $(this).addClass('current')   //给当前元素添加"current"样式
+                .find('i').addClass('down')   //小箭头向下样式
+                .parent().next().slideDown('slow','easeOutQuad')  //下一个元素显示
+                .parent().siblings().children('a').removeClass('current')//父元素的兄弟元素的子元素去除"current"样式
+                .find('i').removeClass('down').parent().next().slideUp('slow','easeOutQuad');//隐藏
+            return false; //阻止默认时间
+        });
+    })
+</script>
+</body>
+</html>

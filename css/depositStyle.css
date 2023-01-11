@@ -1,0 +1,235 @@
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+.align-middle{
+    width: 75.6%;
+    margin-left: 12.2%;
+    height: 1500px;
+}
+.breadcrumb li a{
+    text-decoration: none;
+    color: darkgray;
+}
+.breadcrumb li a:hover{
+    color: darkblue;
+}
+/*大额存单*/
+.deposit{
+    height: 888px;
+}
+.deposit .deposit_big{
+    height: 500px;
+    background-color: #ffffff;
+    border-bottom: 2px solid gainsboro;
+    box-shadow: 3px 9px 8px -5px gainsboro;
+}
+.deposit .deposit_big .nav-item{
+    font-size: large;
+    width: 15%;
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.deposit .deposit_big .tab-content .h6{
+    width: 43%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-top: 1%;
+}
+.deposit .deposit_big .tab-content .tab-content1,.tab-content2,.tab-content3,.tab-content4{
+    border-bottom: 1px dashed gainsboro;
+    width: 100%;
+}
+
+.deposit .deposit_big .tab-content .h6:hover{
+    color: red;
+}
+.deposit .deposit_big .tab-content p a:nth-child(1),.deposit_big .tab-content p a:nth-child(2){
+    width: 30%;
+    display: inline-block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.deposit .deposit_big .tab-content p a:nth-child(3){
+    width: 9%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.deposit .deposit_big .tab-content p a span{
+    color: brown;
+}
+.deposit .deposit_big .tab-content p img{
+    float: right;
+    width: 2%;
+    margin-right: 28%;
+}
+.deposit .deposit_big .tab-content .btn-link{
+    float: right;
+    margin-top: -5%;
+    width: 10%;
+    padding: 0.1em;
+    background-color: #4db0ff;
+    text-decoration: none;
+    color: WHITE;
+    height: 30px;
+    overflow: hidden;
+}
+.deposit .deposit_big .tab-content .tips{
+    float: left;
+    margin-top: -5%;
+}
+.deposit .deposit_big .tab-content .more{
+    color: brown;
+    float: right;
+    cursor: pointer;
+}
+.deposit_fix{
+    margin-top: 2%;
+    width: 100%;
+    float: left;
+    height: 150px;
+    background-color: #ffffff;
+}
+.deposit_fix .h5{
+    margin-left: 2%;
+    margin-top: 1%;
+}
+.deposit_fix .advise,.deposit_fix2,.deposit_fix3{
+    border: 1px solid gray;
+    border-radius: 15px;
+    width: 30%;
+    float: left;
+    margin-left: 1%;
+    background-color: aliceblue;
+    height: 80px;
+}
+.deposit_fix2,.deposit_fix3{
+    margin-left: 4%;
+}
+.deposit_fix img{
+    width: 12%;
+    margin-top: 7%;
+    margin-left: 10%;
+}
+.deposit_fix div span{
+    margin-left: 3%;
+    margin-top: 7%;
+    font-size: larger;
+    vertical-align: middle;
+    display: inline-block;
+}
+.deposit_fix div span:hover{
+    color: brown;
+    font-weight: 900;
+}
+/*专属和特色存款*/
+.special{
+    float: left;
+    width: 100%;
+    height: 150px;
+    margin-top: 3%;
+    background-color: #ffffff;
+}
+.special .h5{
+    margin-left: 2%;
+    margin-top: 1%;
+}
+.special .special1,.special2,.special3{
+    opacity: .9;
+    border: 1px solid gray;
+    border-radius: 15px;
+    width: 30%;
+    float: left;
+    margin-left: 1%;
+    background-color: aliceblue;
+    height: 80px;
+}
+.special img{
+    width: 12%;
+    margin-top: 7%;
+    margin-left: 10%;
+}
+.special2,.special3{
+    margin-left: 4%;
+}
+.special div span.h6{
+    margin-left: 3%;
+    margin-top: 7%;
+    font-size: larger;
+    vertical-align: middle;
+    display: inline-block;
+}
+.special div span:hover{
+    color: brown;
+    font-weight: 900;
+}
+.special div span:last-child{
+    float: LEFT;
+    margin-left: 26%;
+    margin-top: -5%;
+}
+/*账户*/
+.accounts{
+    width: 100%;
+    height: 500px;
+    margin-top: 3%;
+    background-color: #ffffff;
+}
+.accounts .h5{
+    margin-left: 2%;
+    padding-top: 1%;
+}
+.accounts .h6{
+    margin-left: 1%;
+    margin-top: 1%;
+}
+.accounts .acc1{
+    width: 100%;
+}
+.accounts .acc1 img{
+    width: 20%;
+    margin-left: 2%;
+}
+.accounts .acc1 .balance{
+    float: right;
+    margin-top: 6%;
+    margin-right: 3%;
+}
+.accounts .acc1 .balance:hover{
+    color: brown;
+    font-weight: 900;
+}
+.accounts .acc2{
+    margin-left: 1%;
+}
+.accounts .acc2,.acc4{
+    width: 49%;
+    float: left;
+}
+.accounts .acc3,.acc5{
+    float: right;
+    width: 50%;
+}
+.acc3 img{
+    width: 17%;
+}
+.acc4 img{
+    width: 20%;
+}
+.acc2 img,.acc5 img{
+    width: 15%;
+}
+.accounts div span:last-child{
+    float: left;
+    margin-top: -6%;
+    margin-left: 21%;
+}
+.accounts div span:hover{
+    color: brown;
+    font-weight: 900;
+}

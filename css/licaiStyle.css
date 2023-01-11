@@ -1,0 +1,426 @@
+
+.breadcrumb {
+    margin-left: 11.5%;
+}
+.breadcrumb li a{
+    text-decoration: none;
+    color: darkgray;
+}
+.breadcrumb li a:hover{
+    color: darkblue;
+}
+.licai h2{
+    margin-left: 11.5%;
+    float: left;
+}
+.licai .my-licai{
+    width: 7.5%;;
+    float: right;
+    margin-right: 11.5%;
+}
+.btn-link, .btn-link:hover, .btn-link:focus, .btn-link:active {
+    border-color: transparent;
+}
+.licai .my-licai .btn{
+    background-color:#0d6efd;
+    color:white;
+    width: 100%;
+}
+.licai .my-licai .btn:hover{
+    background-color:#004fc4;
+}
+.btn-link{
+    text-decoration:none;
+}
+
+/*理财轮播*/
+#lunbobox {
+    width: 77%;
+    height:500px;
+    position:relative;
+    top: 55px;
+    left: 11.5%;
+}
+.lunbo {
+    width:100%;
+    height:500px;
+}
+.lunbo img {
+    width:100%;
+    height:450px;
+    position:absolute;
+    top:0;
+    left:0;
+}
+#lunbobox ul {
+    margin-left: 45%;
+    width: 110px;
+    position: absolute;
+    bottom: 75px;
+    z-index: 5;
+}
+#lunbobox ul li {
+    cursor:pointer;
+    width:12px;
+    height:12px;
+    border:1px solid whitesmoke;
+    float:left;
+    list-style:none;
+    background: #b0b0b0;
+    text-align:center;
+    margin:0 5px 0 0;
+    border-radius: 50%;
+}
+#toleft {
+    display:none;
+    width:4%;
+    font-size:3em;
+    text-align:center;
+    color: #4a4b69;
+    position:absolute;
+    top: 42.6%;
+    left: 1%;
+    cursor:pointer;
+    z-index:99;
+    opacity:0.4;
+}
+#toright {
+    width: 4%;
+    font-size: 3em;
+    text-align: center;
+    color: #4a4b69;
+    position: absolute;
+    top: 42.6%;
+    right: 1%;
+    cursor: pointer;
+    z-index: 99;
+}
+/*理财信息*/
+.licai h3{
+    margin-left: 11.5%;
+    margin-top: 75px;
+}
+.licai .licai-info{
+    margin-left: 11.5%;
+    background-color: white;
+    width: 77%;
+    height: 430px;
+    margin-top: 1%;
+    padding-top: 1%;
+}
+.licai .licai-info ul li a{
+    text-decoration: none;
+    color: #6296ca;
+    font-size: 14px;
+}
+.licai .licai-info ul li a:hover{
+    font-size: 15px;
+    font-weight: 900;
+    color: brown;
+}
+.licai .licai-info ul li p{/*针对多行文本*/
+    display: -webkit-box;/*将对象作为弹性伸缩盒显示*/
+    -webkit-box-orient: vertical;/*设置弹性盒模型子元素的排列方式*/
+    -webkit-line-clamp: 2;/*限制文本显示行数*/
+    overflow: hidden;/*将多余的隐藏*/
+}
+
+/*理财产品*/
+.licai-production{
+    width: 77%;
+    margin-left: 11.5%;
+    margin-top: 22px;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px #e5e5e5;
+}
+.licai-production .recommend{
+    width: 49%;
+    position: relative;
+    height: 490px;
+    float: left;
+    background-color: #f9f9f9;
+}
+.licai-production .recommend .tuijian{
+    font-size: 21px;
+    width: 13%;
+    height: 80%;
+    line-height: 370%;
+    text-align: center;
+    float: left;
+    margin-top: 10%;
+    color: darkslateblue;
+}
+.licai-production .recommend .tuijian:hover{
+    font-weight: 900;
+    color: brown;
+}
+.licai-production .recommend ul li{
+    list-style-type: none;
+    width: 74%;
+    font-size: 5px;
+    margin-left: 7%;
+    position: absolute;
+}
+.licai-production .recommend .product1{
+    height: 200px;
+    margin-left: 23px;
+}
+.licai-production .recommend .product1 li:nth-child(1){
+    margin-top: 20px;
+    position: absolute;
+    width: 72%;
+}
+
+.licai-production .recommend .product1 li h4{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 16px;
+}
+.licai-production .recommend .product1 li:nth-child(2){
+    top: 28%;
+}
+.licai-production .recommend .product1 li:nth-child(3){
+    bottom: 39%;
+}
+.licai-production .recommend .product1 li table{
+    color: gray;;
+}
+.licai-production .recommend .product1 li table button{
+    width: 50px;
+    border-radius: 15px;
+}
+.btn-xs{
+    height: 20px;
+    font-size: 11px;
+    line-height: 7px;
+    background: transparent;
+    border: 1px solid brown;
+    color: brown;
+    overflow: hidden;
+}
+.licai-production .recommend .product1{
+    height: 200px;
+    margin-left: -1%;
+    margin-top: -15%;
+}
+.licai-production .recommend .product1 li:nth-child(1){
+    margin-top: 21%;
+    position: absolute;
+    width: 72%;
+}
+
+.licai-production .recommend .product2 li h4{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 16px;
+}
+.licai-production .recommend .product2 li:nth-child(2){
+    top: 68%;
+}
+.licai-production .recommend .product2 li:nth-child(3){
+    bottom: -1%;
+}
+.licai-production .recommend .product2 li table{
+    color: gray;;
+}
+.licai-production .recommend .product2 li table button{
+    width: 50px;
+    border-radius: 15px;
+}
+.licai-production .recommend .product2{
+    height: 200px;
+    margin-left:-1%;
+}
+.licai-production .recommend .product2 li:nth-child(1){
+    margin-top: 18%;
+    position: absolute;
+    width: 72%;
+}
+.buy{
+    border: 1px solid brown;
+    color: brown;
+}
+/*代销WE理财*/
+.consignment{
+    margin-left: 49%;
+    height: 490px;
+    position: relative;
+}
+.consignment a{
+    text-decoration: none;
+    color: #5d5893;
+}
+.consignment>p{
+    font-size: 21px;
+    width: 7%;
+    height: 85%;
+    line-height: 370%;
+    text-align: center;
+    float: left;
+}
+.consignment a:hover{
+    font-weight: 900;
+    color: brown;
+}
+.consignment>.consignment1{
+    width: 91%;
+    height: 200px;
+    margin-left: 9%;
+}
+.consignment>.consignment1>.label{
+    width: 91%;
+    height: 10%;
+    position: absolute;
+    margin-top: 15%;
+}
+.consignment>.consignment1 .label1{
+    border: 1px solid brown;
+    border-radius: 22px;
+    width: 16%;
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    color: brown;
+    position: absolute;
+    margin-top: 3%;
+}
+.consignment>.consignment1 .label2{
+    margin-left: 23%;
+    display: block;
+    border: 1px solid brown;
+    width: 17%;
+    text-align: center;
+    color: brown;
+    border-radius: 22px;
+    overflow: hidden;
+    margin-top: 14px;
+}
+.consignment>.consignment1>p:nth-child(2){
+    width: 95%;
+    margin-top: 25%;
+    margin-top: 25%;
+    position: absolute;
+    font-size: 16px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.consignment>.consignment1>.tb1{
+    position: absolute;
+    top: 35%;
+    width: 91%;
+}
+.consignment>.consignment1>.tb1>p>.head1,.head2,.content1,.content2{
+    width: 25%;
+    text-align: center;
+    display: inline-block;
+}
+.consignment>.consignment1>.tb1>p>.head3,.content3{
+    width: 15%;
+    text-align: center;
+    display: inline-block;
+}
+.consignment>.consignment1>.tb1>p>.head4,.content4{
+    width: 20%;
+    text-align: center;
+    display: inline-block;
+}
+.consignment>.consignment1>.tb1>p>.head5{
+    width: 11%;
+    display: inline-block;
+}
+.consignment>.consignment1>.tb1>p>.buy1{
+    width: 8%;
+    height: 20px;
+    line-height: 19px;
+    border: 1px solid brown;
+    border-radius: 13px;
+    color: brown;
+}
+.consignment>.consignment1 p{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.consignment>.consignment2{
+    width: 91%;
+    height: 200px;
+    margin-left: 9%;
+}
+.consignment>.consignment2>.label{
+    width: 91%;
+    height: 10%;
+    margin-top: 15%;
+    position: absolute;
+    /*overflow: hidden;*/
+}
+.consignment>.consignment2 .label1{
+    border: 1px solid brown;
+    border-radius: 22px;
+    width: 16%;
+    display: block;
+    text-align: center;
+    color: brown;
+    position: absolute;
+    overflow: hidden;
+    margin-top: 3%;
+}
+.consignment>.consignment2 .label2{
+    margin-left: 23%;
+    display: block;
+    border: 1px solid brown;
+    width: 17%;
+    overflow: hidden;
+    text-align: center;
+    color: brown;
+    border-radius: 22px;
+    margin-top: 14px;
+}
+.consignment>.consignment2>p:nth-child(2){
+    margin-top: 25%;
+    position: absolute;
+    font-size: 16px;
+    width: 91%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.consignment>.consignment2>.tb1{
+    position: absolute;
+    bottom: 2%;
+    width: 91%;
+}
+.consignment>.consignment2>.tb1>p>.head1,.head2,.content1,.content2{
+    width: 25%;
+    text-align: center;
+    display: inline-block;
+}
+.consignment>.consignment2>.tb1>p>.head3,.content3{
+    width: 15%;
+    text-align: center;
+    display: inline-block;
+}
+.consignment>.consignment2>.tb1>p>.head4,.content4{
+    width: 20%;
+    text-align: center;
+    display: inline-block;
+}
+.consignment>.consignment2>.tb1>p>.head5{
+    width: 11%;
+    display: inline-block;
+}
+.consignment>.consignment2>.tb1>p>.buy1{
+    width: 8%;
+    height: 20px;
+    line-height: 19px;
+    border: 1px solid brown;
+    border-radius: 13px;
+    color: brown;
+}
+.consignment>.consignment2 p{
+
+}

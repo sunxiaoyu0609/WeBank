@@ -1,0 +1,252 @@
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+.align-middle{
+    width: 75.3%;
+    margin-left: 12.4%;
+    height: 2390px;
+}
+.breadcrumb li a{
+    text-decoration: none;
+    color: darkgray;
+}
+.breadcrumb li a:hover{
+    color: darkblue;
+}
+
+.c_product .h4{
+    margin-top: 3%;
+}
+.c_product .card{
+    width: 100%;
+    background-color: gainsboro;
+    box-shadow: 0 2px 6px #e5e5e5;
+}
+.c_product .card .card1 img{
+    float: left;
+    width: 30%;
+    margin-left: 20%;
+    margin-top: 3%;
+    border-radius: 25px;
+}
+.c_product .card .card1 p{
+    margin-left: 4%;
+    width: 16%;
+    float: left;
+    margin-top: 7%;
+    vertical-align: middle;
+}
+.c_product .card .card1 p span:first-child{
+    font-size: 25px;
+    color: white;
+    font-weight: 900;
+}
+.c_product .card .card1 p span:nth-child(2){
+    color: aliceblue;
+    font-size: 18px;
+}
+.c_product .card .words{
+    height: 205px;
+    background-color: white;
+    border-top-right-radius: 85%;
+    border-top-left-radius: 85%;
+    margin-top: 2%;
+    box-shadow: white -1px 1px 3px 3px;
+}
+.c_product .card .words p{
+    margin-top: 5%;
+    width: 32%;
+    text-align: center;
+    margin-left: 33%;
+    font-size: 1.5em;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+}
+.c_product .card .words input {
+    border: none;
+    background-color: #478ef6;
+    width: 20%;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 20px;
+    color: white;
+    margin-left: 39%;
+}
+/*办卡进度*/
+.c_product .func{
+    width: 100%;
+    background-color: white;
+}
+.c_product .func .func1,.func2{
+    width: 100%;
+    text-align: center;
+    height: 242px;
+}
+.c_product .func div div{
+    float: left;
+    width: 20%;
+
+}
+.c_product .func div div:hover{
+    transform: scale(1.1);
+}
+.c_product .func p{
+    font-size: 1.3em;
+    font-weight: 600;
+}
+.c_product .func .func11 img{
+    width: 53%;
+    margin-top: 13%;
+    margin-bottom: 21.5%;
+}
+.c_product .func .func12 img{
+    width: 60%;
+    margin-top: 10%;
+    margin-bottom: 17.5%;
+}
+.c_product .func .func13 img{
+    width: 63%;
+    margin-top: 18%;
+    margin-bottom: 19%;
+}
+.c_product .func .func14 img{
+    width: 72%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+.c_product .func .func15 img{
+    width: 68%;
+    margin-top: 6%;
+    margin-bottom: 13.5%;
+}
+.c_product .func .func21 img{
+    width: 65%;
+    margin-bottom: 0.5%;
+}
+.c_product .func .func22 img{
+    width: 65%;
+    margin-bottom: 0.5%;
+}
+.c_product .func .func23 img{
+    width: 64%;
+    margin-top: 6%;
+    margin-bottom: 7.5%;
+}
+.c_product .func .func24 img{
+    width: 63%;
+    margin-bottom: 2.5%;
+}
+.c_product .func .func25 img{
+    width: 67%;
+    margin-top: -3%;
+    margin-bottom: 9.5%;
+}
+/*借款专区*/
+.jiekuan{
+    width: 100%;
+}
+.jiekuan .jie1 .jie11,.jie12,.jie13{
+    float: left;
+    width: 32%;
+    background-color: #fff;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    box-shadow: gainsboro 1px 1px 1px;
+}
+.jie12,.jie13{
+    margin-left: 2%;
+}
+.jiekuan .h6{
+    margin-left: 3%;
+    margin-top: 2%;
+    color: #676a6e;
+    font-weight: 600;
+}
+.jiekuan div div p:nth-child(2){
+    width: 14%;
+    overflow: hidden;
+    margin-left: 20%;
+    height: 50px;
+}
+.jiekuan div div input{
+    border: none;
+    width: 20%;
+    background-color: #5490f6;
+    border-radius: 14px;
+    color: white;
+    font-weight: 600;
+    margin-left: 50%;
+    font-size: 1.04em;
+    margin-bottom: 5%;
+}
+
+/*轮播*/
+.b-carousel{
+    width: 100%;
+    height: 300px;
+    float: left;
+    margin-top: 3%;
+    box-shadow: 0 2px 6px #e5e5e5;
+}
+.b-carousel .carousel{
+    height: 100%;
+}
+.b-carousel .carousel .carousel-indicators{
+    bottom: 5%;
+}
+ .b-carousel .carousel .carousel-inner{
+    height: 100%;
+}
+.b-carousel .carousel .carousel-item{
+    height: 100%;
+}
+.b-carousel img{
+    height: 90%;
+}
+.b-carousel .carousel .carousel-control-prev,.carousel-control-next{
+    background-color: black;
+    width: 5%;
+    height: 15%;
+    top: 35%;
+}
+
+.recommend{
+    width: 100%;
+    float: left;
+    margin-top: 3%;
+}
+.recommend .h4{
+    width: 50%;
+    float: left;
+}
+.recommend .more{
+    width: 50%;
+    float: right;
+    text-align: right;
+    font-size: 1.5em;
+    color: brown;
+}
+.recommend>img{
+    width: 100%;
+    box-shadow: 0 2px 6px #e5e5e5;
+    margin-bottom: 2%;
+}
+.recommend1{
+    width: 100%;
+}
+.rec1,.rec2,.rec3{
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+.recommend1 img{
+    width: 90%;
+}
+.recommend1 img:hover{
+    width: 92%;
+    transform: scale(1);
+    box-shadow: 0 2px 6px #e5e5e5;
+}

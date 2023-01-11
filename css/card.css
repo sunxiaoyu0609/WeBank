@@ -1,0 +1,262 @@
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+li{
+    list-style-type: none;
+}
+.align-middle{
+    width: 75.6%;
+    margin-left: 12.2%;
+    height: 1200px;
+}
+.breadcrumb{
+    background:none;
+}
+.breadcrumb>li+li:before {
+    content:"";
+}
+.breadcrumb li a{
+    text-decoration: none;
+    color: darkgray;
+}
+.breadcrumb li a:hover{
+    color: darkblue;
+}
+/*中间内容*/
+.bank{
+    width: 100%;
+}
+/*轮播*/
+.b-carousel{
+    width: 77%;
+    height: 270px;
+    background-color: ghostwhite;
+    float: left;
+}
+/*公告*/
+.bank1{
+    width: 77%;
+    margin-top: 2%;
+    float: left;
+    background-color: #ffffff;
+    border-bottom: 2px solid gainsboro;
+    box-shadow: 3px 9px 8px -5px gainsboro;
+}
+.bank1 span{
+    display: inline-block;
+    float: left;
+}
+.bank1 .notice{
+    width: 50%;
+    float: left;
+    border-right: 1px dashed lightgray;
+}
+.bank1 div div p{
+    width: 90%;
+    margin-bottom: 1%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.bank1 .discount{
+    width: 50%;
+    float: right;
+}
+.bank1 .h4{
+    color: black;
+    margin: 1% 0 2% 2%;
+}
+.bank1 .more{
+    float: right;
+    right: 1%;
+    color: brown;
+    margin-right: 2%;
+}
+.bank1 .more:hover{
+    font-weight: 900;
+}
+/*优惠通知*/
+.dis{
+    width: 21%;
+    float: right;
+    /*margin-top: -27.6%;*/
+    background-color: #ffffff;
+}
+.dis div{
+    width: 100%;
+    height: 70px;
+}
+.dis div:not(.dis4){
+    border-bottom: 1px dashed gainsboro;
+}
+.dis div img{
+    float: right;
+    width: 35%;
+}
+.dis div a{
+    height: 100%;
+    display: block;
+    vertical-align: middle;
+}
+.dis div a:hover{
+    color: brown;
+
+}
+.dis div a span{
+    margin-top: 9%;
+    margin-left: 7%;
+    display: inline-block;
+}
+/*联系*/
+.connection{
+    float: right;
+    width: 21%;
+    margin-top: 2%;
+    border-top: 1px dashed gray;
+    border-bottom: 1px dashed gray;
+}
+.connection img{
+    width: 20%;
+    float: left;
+    margin-left: 7%;
+    margin-top: 7%;
+}
+.connection p{
+    margin-top: 4%;
+    float: left;
+    margin-left: 3%;
+    cursor: pointer;
+}
+/*实用信息*/
+.info{
+    width: 21%;
+    height: auto;
+    float: right;
+    background-color: #ffffff;
+    margin-top: 2%;
+}
+.info ul{
+    padding: 0;
+}
+.info ul .h6{
+    margin-left: 5%;
+}
+.info ul span{
+    display: inline-block;
+    float: left;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+.info ul li{
+    width: 90%;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+.info ul li:hover{
+    color: brown;
+}
+.info ul li a{
+    color: currentcolor;
+}
+/*热卡推荐*/
+.bank2{
+    width: 77%;
+    float: left;
+}
+.bank2 .mt-3{
+    width: 100%;
+    height: 200px;
+    background-color: #ffffff;
+}
+.bank2 .mt-3 .nav-tabs{
+    width: 100%;
+}
+.bank2 img{
+    width: 33%;
+}
+.bank2 .credit1,.credit2,.credit3{
+    float: left;
+    width: 33%;
+}
+/*借记卡申请*/
+.bank3{
+    width: 77%;
+    float: left;
+    margin-top: 2%;
+    background-color: #ffffff;
+}
+.bank3 .h4{
+    margin-top: 2%;
+    margin-left: 2%;
+}
+.bank3 .line{
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+    background-color: orange;
+    border: 1px solid orangered;
+    border-radius: 5px;
+    height: 10px;
+}
+.bank3 .line .one,.bank3 .line .two,.bank3 .line .three{
+    width: 33%;
+    float: left;
+    margin-top: -2%;
+}
+.bank3 .line div img{
+    width: 15%;
+    margin-left: 43%;
+}
+.bank3 .line-words{
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+    height: 10px;
+}
+.bank3 .line-words .one,.bank3 .line-words .two,.bank3 .line-words .three{
+    width: 33%;
+    float: left;
+    text-align: center;
+    margin-top: -3%;
+}
+/*服务指南*/
+.bank4{
+    width: 77%;
+    float: left;
+    margin-top: 2%;
+    background-color: #ffffff;
+}
+.bank4 .h4{
+    width: 100%;
+}
+.bank4 hr{
+    width: 100%;
+}
+.bank4 div{
+    width: 32%;
+    float: left;
+
+}
+.bank4 .server2,.server3{
+    margin-left: 2%;
+}
+.bank4 ul {
+    padding-left: 10%;
+    border-right: 1px dashed gainsboro;
+}
+.bank4 ul li{
+    width: 90%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.bank4 ul li:hover{
+    cursor: pointer;
+    color: brown;
+}
+.bank4 ul li span{
+    font-weight: 900;
+}

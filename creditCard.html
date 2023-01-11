@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="images/logo.png" type="image/x-icon"><!--//给标题加小图标-->
+    <title>201958304112徐燕玲-信用卡产品</title>
+    <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/head.css"/>
+    <link rel="stylesheet" href="css/creditCard.css"/>
+    <link rel="stylesheet" href="css/footer.css"/>
+    <link rel="stylesheet" href="css/toTop.css"/>
+    <link rel="stylesheet" href="css/background.css"/>
+    <script src="bootstrap-5.1.3-dist/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/toTop.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+<div class="contaniner">
+    <!--头部-->
+    <!--头部框-->
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <div class="container-fluid top" style="width: 83.1%;">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse top-link1" id="mynavbar">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">简体中文</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">繁体中文</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">English</a>
+                    </li>
+                    <li class="nav-item" id="login">
+                        <a class="nav-link" href="#">用户登录</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">注销账号</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--LOGO和二级菜单-->
+    <div class="header">
+        <div class="header1 row">
+            <div class="logo col-lg-3 col-sm-12">
+                <a href="#"><img src="images/logo.png" style="width: 100%"></a>
+            </div>
+            <ul class="list-group list-group-horizontal col-lg-5 col-sm-12">
+                <li class="list-group-item"><a style="font-size: 15px;">服务热线:</a><a style="color: #5cacff;cursor: pointer">123456</a></li>
+                <li class="list-group-item"><a style="font-size: 15px;">信用卡热线:</a><a style="color: #5cacff;cursor: pointer">400123456</a></li>
+            </ul>
+            <form class="d-flex col-lg-4 col-sm-12">
+                <input class="form-control me-2" type="text" placeholder="请输入检索关键词" id="s1">
+                <button class="btn btn-primary" type="button" id="s2">搜索</button>
+            </form>
+        </div>
+
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <nav class="navbar navbar-expand-md navbar-light" style="margin-top: -4%;">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar" style="width: 100%;">
+                <ul class="navbar-nav  nn" style="width: 100%;">
+                    <li class="nav-item" style="margin-left: 2.5%">
+                        <a class="nav-link" href="bank.html" style="text-align: center;">首页</a>
+                    </li>
+                    <li class="nav-item dropdown" style="margin-left: 2.5%">
+                        <a class="nav-link" href="bankFinance.html" id="navbardrop">
+                            银行金融
+                        </a>
+                        <span class="btn dropdown-toggle caret" data-bs-toggle="dropdown" style=""></span>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="licai.html">理财产品</a>
+                            <a class="dropdown-item" href="fund.html">基金</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown" style="margin-left: 2.5%">
+                        <a class="nav-link" href="SelfFinance.html" id="navbardrop2">
+                            个人金融
+                        </a>
+                        <span class="btn dropdown-toggle caret" data-bs-toggle="dropdown" style=""></span>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="depositAndAccounts.html">存款与账户</a>
+                            <a class="dropdown-item" href="Remittance.html">转账汇款</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown" style="margin-left: 2.5%">
+                        <a class="nav-link" href="Card.html" id="navbardrop3">
+                            银行卡
+                        </a>
+                        <span class="btn dropdown-toggle caret" data-bs-toggle="dropdown" style=""></span>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="creditCard.html">信用卡产品</a>
+                            <a class="dropdown-item" href="SpecialServers.html">特色服务</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown"  style="margin-left: 2.5%">
+                        <a class="nav-link" href="FinancialMarket.html" id="navbardrop4">
+                            金融市场
+                        </a>
+                        <span class="btn dropdown-toggle caret" data-bs-toggle="dropdown" style=""></span>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="FinancialMarket.html">WE人民币指数</a>
+                            <a class="dropdown-item" href="Loan.html">贷款</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown" style="margin-left: 2.5%">
+                        <a class="nav-link" href="ElectronicBanking.html" id="navbardrop5">
+                            网上银行
+                        </a>
+                        <span class="btn dropdown-toggle caret" data-bs-toggle="dropdown" style=""></span>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="ElectronicBanking.html">电话银行</a>
+                            <a class="dropdown-item" href="EnterpriseOnlineBanking.html">企业网上银行</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown" style="margin-left: 2.5%">
+                        <a class="nav-link " href="CompanyInformation.html" id="navbardrop6">
+                            投资者
+                        </a>
+                        <span class="btn dropdown-toggle caret" data-bs-toggle="dropdown" style=""></span>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="GovernanceCorporate.html">银行治理</a>
+                            <a class="dropdown-item" href="CompanyInformation.html">银行资料</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown" style="margin-left: 2.5%">
+                        <a class="nav-link" href="WeAbout.html" id="navbardrop7" >
+                            关于WE
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <!--内容-->
+    <div class="align-middle">
+        <ul class="breadcrumb" style="width: 300px;">
+            <li>当前位置：&nbsp;</li>
+            <li><a href="bank.html">首页  >></a></li>
+            <li><a href="#">&nbsp;银行卡 >></a></li>
+            <li><a href="#">&nbsp;信用卡产品 </a></li>
+        </ul>
+
+        <div class="c_product">
+            <!---->
+            <p class="h4" style="margin-top: 3%;">信用卡专区</p>
+            <div class="card">
+                <div class="card1">
+                    <img src="images/creditCard/wujie.jpeg" alt="">
+                    <p>
+                        <span>无界白金数字卡</span>
+                        <span><a class="">极速审批，即刻使用</a></span>
+                    </p>
+                </div>
+                <div class="words">
+                    <p>
+                        <span class="words1">极速审批、即刻使用、一键绑卡、支付无界</span>
+                        <span class="words2">消费5笔或5000元减免当年年费</span>
+                    </p>
+                    <input type="button" class="apply" value="申请信用卡">
+                </div>
+            </div>
+            <!-- 办卡进度...-->
+            <p class="h4">具体服务</p>
+            <div class="func">
+
+                <div class="func1">
+                    <div class="func11">
+                        <img src="images/creditCard/apply.png" alt="">
+                        <p>申请办卡</p>
+                    </div>
+                    <div class="func12">
+                        <img src="images/creditCard/jindu.png" alt="">
+                        <p>申请进度</p>
+                    </div>
+                    <div class="func13">
+                        <img src="images/creditCard/qiyong.png" alt="">
+                        <p>卡片启用</p>
+                    </div>
+                    <div class="func14">
+                        <img src="images/creditCard/yunshanfu.png" alt="">
+                        <p>云闪付</p>
+                    </div>
+                    <div class="func15">
+                        <img src="images/creditCard/zidong.png" alt="">
+                        <p>自动还款</p>
+                    </div>
+                </div>
+                <div class="func2">
+                    <div class="func21">
+                        <img src="images/creditCard/safe.png" alt="">
+                        <p>账户安全锁</p>
+                    </div>
+                    <div class="func22">
+                        <img src="images/creditCard/shuzika.png" alt="">
+                        <p>数字卡专区</p>
+                    </div>
+                    <div class="func23">
+                        <img src="images/creditCard/car1.png" alt="">
+                        <p>智行天下</p>
+                    </div>
+                    <div class="func24">
+                        <img src="images/creditCard/bangka.png" alt="">
+                        <p>一键绑卡</p>
+                    </div>
+                    <div class="func25">
+                        <img src="images/creditCard/xinyong.png" alt="">
+                        <p>信用报告</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="jiekuan">
+            <p class="h4">借款专区</p>
+            <div class="jie1">
+                <div class="jie11">
+                    <p class="h6">融e借</p>
+                    <p>
+                        <span>利率优惠</span>
+                        <span>随借随还</span>
+                    </p>
+                    <input type="button" class="apply" value="立即申请">
+                </div>
+                <div class="jie12">
+                    <p class="h6">急用钱</p>
+                    <p>
+                        <span>手机取现</span>
+                        <span>实时到账</span>
+                    </p>
+                    <input type="button" class="apply" value="立即申请">
+                </div>
+                <div class="jie13">
+                    <p class="h6">随用金</p>
+                    <p>
+                        <span>审核快</span>
+                        <span>分期还</span>
+                    </p>
+                    <input type="button" class="apply" value="立即申请">
+                </div>
+            </div>
+
+            <!-- 卡片轮播 -->
+            <div class="b-carousel">
+                <!-- 轮播 -->
+                <div id="demo" class="carousel slide" data-bs-ride="carousel">
+                    <!-- 指示符 -->
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                    </div>
+                    <!-- 轮播图片 -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/lunbo1.jpg" class="d-block" style="width:100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/lunbo3.jpg" class="d-block" style="width:100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/lunbo4.jpg" class="d-block" style="width:100%">
+                        </div>
+                    </div>
+                    <!-- 左右切换按钮 -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!--卡片推荐-->
+        <div class="recommend">
+            <p class="h4">卡片推荐</p>
+            <p class="more">更多</p>
+            <img src="images/lunbo2.jpg">
+            <div class="recommend1">
+                <div class="rec1">
+                    <img src="images/creditCard/card4.jpg" alt="">
+                    <p>WE小白兔卡</p>
+                </div>
+                <div class="rec2">
+                    <img src="images/creditCard/card5.jpg" alt="">
+                    <p>WE小白兔卡</p>
+                </div>
+                <div class="rec3">
+                    <img src="images/creditCard/card6.jpg" alt="">
+                    <p>WE小白兔卡</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--尾部-->
+    <div class="container foot">
+        <div class="phone">
+            <p><span style="font-weight: 700;">客户服务与投诉热线：</span><span style="color: #3197e9c4">156466</span>(中国境内)；
+                <span style="font-weight: 700;">信用卡客服与投诉热线：</span><span style="color: #3197e9c4">4002562453456</span>
+                (中国境内)； <span style="color: #3197e9c4">+86-10-1354646513</span>(中国境外)</p>
+            <br>
+        </div>
+        <hr>
+        <div class="cc">
+            <div class="area">
+                <p>
+                    <a>201958304112</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+                    <a>徐燕玲</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+                    <a>17383005183</a>
+                </p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Copyright@ LSX-Software2</p>
+            </div>
+        </div>
+        <div class="foot-logo">
+            <img src="images/logo.png" alt="#">
+        </div>
+    </div>
+    <!--置顶-->
+    <div class="_top">
+        TOP
+    </div>
+    <!--背景-->
+    <div id="wrapper">
+        <canvas id="canvas" width="1950px" height="800px"></canvas>
+        <canvas id="canvasbg" width="1950px" height="800px"></canvas>
+    </div>
+    <script src="js/background.js"></script>
+</div>
+
+</body>
+</html>

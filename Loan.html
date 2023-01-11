@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>201958304155孙小宇-贷款</title>
+    <link rel="icon" href="images/logo.png" type="images/x-icon">
+    <link href="css/head.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/Loan.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/background.css">
+    <link rel="stylesheet" href="css/footer.css"/>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" ></script>
+</head>
+<body>
+<div class="container">
+    <div class="alert alert-dark alert-dismissible" style="width: 76.1%;margin: 0 auto;">
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        Tips：这是根据bootstrap栅格系统做的响应式界面
+    </div>
+    <!--头部框-->
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <div class="container-fluid top" style="width: 83.1%;">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse top-link1" id="mynavbar">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">简体中文</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">繁体中文</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">English</a>
+                    </li>
+                    <li class="nav-item" id="login">
+                        <a class="nav-link" href="#">用户登录</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">注销账号</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--LOGO和二级菜单-->
+    <div class="header">
+        <div class="header1 row">
+            <div class="logo col-lg-3 col-sm-12">
+                <a href="#"><img src="images/logo.png" style="width: 100%"></a>
+            </div>
+            <ul class="list-group list-group-horizontal col-lg-5 col-sm-12">
+                <li class="list-group-item"><a style="font-size: 15px;">服务热线:</a><a style="color: #5cacff;cursor: pointer">123456</a></li>
+                <li class="list-group-item"><a style="font-size: 15px;">信用卡热线:</a><a style="color: #5cacff;cursor: pointer">400123456</a></li>
+            </ul>
+            <form class="d-flex col-lg-4 col-sm-12">
+                <input class="form-control me-2" type="text" placeholder="请输入检索关键词" id="s1">
+                <button class="btn btn-primary" type="button" id="s2">搜索</button>
+            </form>
+        </div>
+
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <nav class="navbar navbar-expand-md navbar-light" style="margin-top: -4%;">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar" style="width: 100%;">
+                <ul class="navbar-nav  nn" style="width: 100%;">
+                    <li class="nav-item" style="margin-left: 2.5%">
+                        <a class="nav-link" href="bank.html" style="text-align: center;">首页</a>
+                    </li>
+                    <li class="nav-item dropdown" style="margin-left: 2.5%">
+                        <a class="nav-link" href="bankFinance.html" id="navbardrop">
+                            银行金融
+                        </a>
+                        <span class="btn dropdown-toggle caret" data-bs-toggle="dropdown" style=""></span>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="licai.html">理财产品</a>
+                            <a class="dropdown-item" href="fund.html">基金</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown" style="margin-left: 2.5%">
+                        <a class="nav-link" href="SelfFinance.html" id="navbardrop2">
+                            个人金融
+                        </a>
+                        <span class="btn dropdown-toggle caret" data-bs-toggle="dropdown" style=""></span>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="depositAndAccounts.html">存款与账户</a>
+                            <a class="dropdown-item" href="Remittance.html">转账汇款</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown" style="margin-left: 2.5%">
+                        <a class="nav-link" href="Card.html" id="navbardrop3">
+                            银行卡
+                        </a>
+                        <span class="btn dropdown-toggle caret" data-bs-toggle="dropdown" style=""></span>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="creditCard.html">信用卡产品</a>
+                            <a class="dropdown-item" href="SpecialServers.html">特色服务</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown"  style="margin-left: 2.5%">
+                        <a class="nav-link" href="FinancialMarket.html" id="navbardrop4">
+                            金融市场
+                        </a>
+                        <span class="btn dropdown-toggle caret" data-bs-toggle="dropdown" style=""></span>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="FinancialMarket.html">WE人民币指数</a>
+                            <a class="dropdown-item" href="Loan.html">贷款</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown" style="margin-left: 2.5%">
+                        <a class="nav-link" href="ElectronicBanking.html" id="navbardrop5">
+                            网上银行
+                        </a>
+                        <span class="btn dropdown-toggle caret" data-bs-toggle="dropdown" style=""></span>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="ElectronicBanking.html">电话银行</a>
+                            <a class="dropdown-item" href="EnterpriseOnlineBanking.html">企业网上银行</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown" style="margin-left: 2.5%">
+                        <a class="nav-link " href="CompanyInformation.html" id="navbardrop6">
+                            投资者
+                        </a>
+                        <span class="btn dropdown-toggle caret" data-bs-toggle="dropdown" style=""></span>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="GovernanceCorporate.html">银行治理</a>
+                            <a class="dropdown-item" href="CompanyInformation.html">银行资料</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown" style="margin-left: 2.5%">
+                        <a class="nav-link" href="WeAbout.html" id="navbardrop7" >
+                            关于WE
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container middle">
+        <div class="row all-row">
+            <ul class="breadcrumb">
+                <li>当前位置:&nbsp&nbsp&nbsp&nbsp</li>
+                <li class="breadcrumb-item">首页</li>
+                <li class="breadcrumb-item">贷款 </li>
+            </ul>
+            <h3 style="margin-bottom: 20px;box-shadow: 0 2px 6px #eeeeee;border-bottom: 1px  grey solid">电子银行贷款</h3>
+            <div class="row-2-l col-lg-4 col-md-12 col-sm-12">
+                <div class="treebox">
+                    <ul class="menu">
+                        <li class="level1">
+                            <a href="#none"><em class="ico ico1"></em>个人住房贷款<i class="down"></i><span style="margin-left: 75px"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                                <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/></svg></span></a>
+                            <ul class="level2">
+                                <li><a href="javascript:;">一手住房贷款</a></li>
+                                <li><a href="javascript:;">二手住房贷款</a></li>
+                            </ul>
+                        </li>
+                        <li class="level1">
+                            <a href="#none"><em class="ico ico2"></em>综合消费贷款<i></i><span style="margin-left: 75px"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                                <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/></svg></span></a>
+                            <ul class="level2">
+                                <li><a href="javascript:;">房屋抵押贷款</a></li>
+                                <li><a href="javascript:;">信用贷款</a></li>
+                                <li><a href="javascript:;">质押贷款</a></li>
+                                <li><a href="javascript:;">个人汽车贷款</a></li>
+                            </ul>
+                        </li>
+                        <li class="level1">
+                            <a href="#none"><em class="ico ico3"></em>个人经营贷款<i></i><span style="margin-left: 75px"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                                <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/></svg></span></a>
+                            <ul class="level2">
+                                <li><a href="javascript:;">房抵快贷</a></li>
+                                <li><a href="javascript:;">助业贷款</a></li>
+                                <li><a href="javascript:;">商用房贷款</a></li>
+                                <li><a href="javascript:;">设备融资贷</a></li>
+                            </ul>
+                        </li>
+                        <li class="level1">
+                            <a href="#none"><em class="ico ico4"></em>银保合作贷款<i></i><span style="margin-left: 75px"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                                <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/></svg></span></a>
+                            <ul class="level2">
+                                <li><a href="javascript:;">银保小额贷款</a></li>
+                                <li><a href="javascript:;">银保抵押贷款</a></li>
+                            </ul>
+                        </li>
+                        <li class="level1">
+                            <a href="#none"><em class="ico ico5"></em>网上快速贷款<i></i><span style="margin-left: 75px"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                                <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/></svg></span></a>
+                            <ul class="level2">
+                                <li><a href="javascript:;">光速贷</a></li>
+                                <li><a href="javascript:;">阳光随心贷</a></li>
+                            </ul>
+                        </li>
+                        <li class="level1">
+                            <a href="#none"><em class="ico ico5"></em>个人委托贷款<i></i></a>
+                        </li>
+                        <li class="level1">
+                            <a href="#none"><em class="ico ico5"></em>助业贷款<i></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row-2-r col-lg-8 col-md-12 col-sm-12">
+                <center><h3>一手住房贷款</h3></center>
+                <div class="row-2-r-1">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bar-chart-fill" viewBox="0 0 16 16">
+                      <path d="M1 11a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-3zm5-4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V2z"/>
+                    </svg></span>
+                    产品定义
+                </div>
+                <p>“个人一手住房贷款”是指我行向借款人发放的用于在中国大陆境内购买一手住房或车库（位）用途的贷款。</p>
+                <div class="row-2-r-1">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bar-chart-fill" viewBox="0 0 16 16">
+                      <path d="M1 11a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-3zm5-4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V2z"/>
+                    </svg></span>
+                    产品特点
+                </div>
+                <p>• 金额高：最高7.5成，无上限；<br>
+
+                    • 期限长：可达30年，单独申请的车位贷款最长10年；<br>
+
+                    • 快速放款：电子化审批流程保证贷款审批、放款效率高；<br>
+
+                    • 还款灵活：七种还款方式，灵活满足客户还款资金安排；<br>
+
+                    • 额度循环：专享循环易贷服务，额度循环使用，消费用途广。
+                </p>
+                <div class="row-2-r-1">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bar-chart-fill" viewBox="0 0 16 16">
+                      <path d="M1 11a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-3zm5-4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V2z"/>
+                    </svg></span>
+                    产品要素
+                </div>
+                <p>• 申请贷款的住房条件：住房楼盘应属于开发手续完备、配套齐全、价格合理且销售前景看好的优质楼盘；<br>
+
+                    • 贷款期限在1年以内（含）的，执行合同利率，贷款期间不予调整；贷款期限在1年以上的，按照单笔贷款合同约定贷款重定价方式相应利率基础执行新的贷款利率。 若采用全国银行间同业拆借中心发布的贷款市场报价利率作为利率基础，则自重定价日当日起, 开始执行重定价日当日全国银行间同业拆借中心最新发布的贷款市场报价利率。
+                </p>
+                <div class="row-2-r-1">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bar-chart-fill" viewBox="0 0 16 16">
+                      <path d="M1 11a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-3zm5-4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V2z"/>
+                    </svg></span>
+                    温馨提示
+                </div>
+                <p>• 单笔贷款具体首付款比例、利率政策等由我行各分行根据各省级市场利率定价自律机制确定的辖区内最低首付款比例、个人住房贷款利率定价等要求，结合本行经营情况、客户风险状况和信贷条件等因素综合确定。</p>
+            </div>
+            <div class="row-1-l col-lg-9 col-md-12 col-sm-12">
+                    <ul class="row">
+                        <li class="col-12"><a href="#"><img src="images/loan1.png" width="140" height="80" alt=""></a></li>
+                        <li class="col-12"><a href="#"><img src="images/loan2.png" width="140" height="80" alt=""></a></li>
+                        <li class="col-12"><a href="#"><img src="images/loan3.png" width="140" height="80" alt=""></a></li>
+                        <li class="col-12"><a href="#"><img src="images/loan5.png" width="140" height="80" alt=""></a></li>
+                        <li class="col-12"><a href="#"><img src="images/loan6.png" width="140" height="80" alt=""></a></li>
+                        <li class="col-12"><a href="#"><img src="images/loan7.png" width="140" height="80" alt=""></a></li>
+                        <li class="col-12"><a href="#"><img src="images/loan8.png" width="140" height="80" alt=""></a></li>
+                        <li class="col-12"><a href="#"><img src="images/loan9.png" width="140" height="80" alt=""></a></li>
+                    </ul>
+            </div>
+            <div class="row-1-r col-lg-3 col-md-12 col-sm-12">
+                <ul class="nav nav-tabs">
+                    <li class="nav-item" style="width: 33%">
+                        <a class="nav-link active"  data-bs-toggle="tab" href="#home">个人贷款</a>
+                    </li>
+
+                    <li class="nav-item" style="width: 33%">
+                        <a class="nav-link" data-bs-toggle="tab" href="#profile">出国金融</a>
+                    </li>
+
+                    <li class="nav-item" style="width: 33%">
+                        <a class="nav-link" data-bs-toggle="tab" href="#contact">贵金属</a>
+                    </li>
+
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane fade show active" id="home">
+                        <img src="images/sxy-tab1.png" width="100%">
+                        <img src="images/sxy-tab2.png" width="100%">
+                        <img src="images/sxy-tab3.png" width="100%">
+                    </div>
+                    <div class="tab-pane fade" id="profile">
+                        <img src="images/sxy-tab4.png" width="100%">
+                        <img src="images/sxy-tab5.png" width="100%">
+                        <img src="images/sxy-tab6.png" width="100%">
+                    </div>
+                    <div class="tab-pane fade" id="contact">
+                        <img src="images/sxy-tab7.png" width="100%">
+                        <img src="images/sxy-tab8.png" width="100%">
+                        <img src="images/sxy-tab9.png" width="100%">
+                    </div>
+            </div>
+        </div>
+
+        </div>
+    </div>
+    <div class="container foot">
+        <div class="phone">
+            <p><span style="font-weight: 700;">客户服务与投诉热线：</span><span style="color: #3197e9c4">156466</span>(中国境内)；
+                <span style="font-weight: 700;">信用卡客服与投诉热线：</span><span style="color: #3197e9c4">4002562453456</span>
+                (中国境内)； <span style="color: #3197e9c4">+86-10-1354646513</span>(中国境外)</p>
+            <br>
+        </div>
+        <hr>
+        <div class="cc">
+            <div class="area">
+                <p>
+                    <a>201958304155</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+                    <a>孙小宇</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+                    <a>18723371508</a>
+                </p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Copyright@ LSX-Software2</p>
+            </div>
+        </div>
+        <div class="foot-logo">
+            <img src="images/logo.png" alt="#">
+        </div>
+    </div>
+</div>
+<div id="wrapper">
+    <canvas id="canvas" width="1950px" height="800px"></canvas>
+    <canvas id="canvasbg" width="1950px" height="800px"></canvas>
+</div>
+<script src="js/background.js" charset="utf-8"></script>
+<script src="js/Loan.js"></script>
+<script>
+    //等待dom元素加载完毕.
+    $(function(){
+        $(".treebox .level1>a").click(function(){
+            $(this).addClass('current')   //给当前元素添加"current"样式
+                .find('i').addClass('down')   //小箭头向下样式
+                .parent().next().slideDown('slow','easeOutQuad')  //下一个元素显示
+                .parent().siblings().children('a').removeClass('current')//父元素的兄弟元素的子元素去除"current"样式
+                .find('i').removeClass('down').parent().next().slideUp('slow','easeOutQuad');//隐藏
+            return false; //阻止默认时间
+        });
+    })
+</script>
+</body>
+</html>

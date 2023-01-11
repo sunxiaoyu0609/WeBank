@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="images/logo.png" type="image/x-icon"><!--//给标题加小图标-->
+    <title>201958304112徐燕玲-存款与账户</title>
+    <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/head.css"/>
+    <link rel="stylesheet" href="css/depositStyle.css"/>
+    <link rel="stylesheet" href="css/footer.css"/>
+    <link rel="stylesheet" href="css/toTop.css"/>
+    <link rel="stylesheet" href="css/background.css"/>
+    <script src="bootstrap-5.1.3-dist/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/deposit.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/toTop.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+<div class="container">
+    <!--头部-->
+    <!--头部框-->
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <div class="container-fluid top" style="width: 83.1%;">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse top-link1" id="mynavbar">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">简体中文</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">繁体中文</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">English</a>
+                    </li>
+                    <li class="nav-item" id="login">
+                        <a class="nav-link" href="#">用户登录</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">注销账号</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--LOGO和二级菜单-->
+    <div class="header">
+        <div class="header1 row">
+            <div class="logo col-lg-3 col-sm-12">
+                <a href="#"><img src="images/logo.png" style="width: 100%"></a>
+            </div>
+            <ul class="list-group list-group-horizontal col-lg-5 col-sm-12">
+                <li class="list-group-item"><a style="font-size: 15px;">服务热线:</a><a style="color: #5cacff;cursor: pointer">123456</a></li>
+                <li class="list-group-item"><a style="font-size: 15px;">信用卡热线:</a><a style="color: #5cacff;cursor: pointer">400123456</a></li>
+            </ul>
+            <form class="d-flex col-lg-4 col-sm-12">
+                <input class="form-control me-2" type="text" placeholder="请输入检索关键词" id="s1">
+                <button class="btn btn-primary" type="button" id="s2">搜索</button>
+            </form>
+        </div>
+
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <nav class="navbar navbar-expand-md navbar-light" style="margin-top: -4%;">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar" style="width: 100%;">
+                <ul class="navbar-nav  nn" style="width: 100%;">
+                    <li class="nav-item" style="margin-left: 2.5%">
+                        <a class="nav-link" href="bank.html" style="text-align: center;">首页</a>
+                    </li>
+                    <li class="nav-item dropdown" style="margin-left: 2.5%">
+                        <a class="nav-link" href="bankFinance.html" id="navbardrop">
+                            银行金融
+                        </a>
+                        <span class="btn dropdown-toggle caret" data-bs-toggle="dropdown" style=""></span>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="licai.html">理财产品</a>
+                            <a class="dropdown-item" href="fund.html">基金</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown" style="margin-left: 2.5%">
+                        <a class="nav-link" href="SelfFinance.html" id="navbardrop2">
+                            个人金融
+                        </a>
+                        <span class="btn dropdown-toggle caret" data-bs-toggle="dropdown" style=""></span>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="depositAndAccounts.html">存款与账户</a>
+                            <a class="dropdown-item" href="Remittance.html">转账汇款</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown" style="margin-left: 2.5%">
+                        <a class="nav-link" href="Card.html" id="navbardrop3">
+                            银行卡
+                        </a>
+                        <span class="btn dropdown-toggle caret" data-bs-toggle="dropdown" style=""></span>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="creditCard.html">信用卡产品</a>
+                            <a class="dropdown-item" href="SpecialServers.html">特色服务</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown"  style="margin-left: 2.5%">
+                        <a class="nav-link" href="FinancialMarket.html" id="navbardrop4">
+                            金融市场
+                        </a>
+                        <span class="btn dropdown-toggle caret" data-bs-toggle="dropdown" style=""></span>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="FinancialMarket.html">WE人民币指数</a>
+                            <a class="dropdown-item" href="Loan.html">贷款</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown" style="margin-left: 2.5%">
+                        <a class="nav-link" href="ElectronicBanking.html" id="navbardrop5">
+                            网上银行
+                        </a>
+                        <span class="btn dropdown-toggle caret" data-bs-toggle="dropdown" style=""></span>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="ElectronicBanking.html">电话银行</a>
+                            <a class="dropdown-item" href="EnterpriseOnlineBanking.html">企业网上银行</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown" style="margin-left: 2.5%">
+                        <a class="nav-link " href="CompanyInformation.html" id="navbardrop6">
+                            投资者
+                        </a>
+                        <span class="btn dropdown-toggle caret" data-bs-toggle="dropdown" style=""></span>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="GovernanceCorporate.html">银行治理</a>
+                            <a class="dropdown-item" href="CompanyInformation.html">银行资料</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown" style="margin-left: 2.5%">
+                        <a class="nav-link" href="WeAbout.html" id="navbardrop7" >
+                            关于WE
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!--内容-->
+    <div class="align-middle">
+        <ul class="breadcrumb" style="width: 300px;">
+            <li>当前位置：&nbsp;</li>
+            <li><a href="bank.html">首页  >></a></li>
+            <li><a href="#">&nbsp;银行金融 >></a></li>
+            <li><a href="#">&nbsp;存款与账户 </a></li>
+        </ul>
+
+        <!--存款-->
+        <div class="deposit">
+            <!--大额存款-->
+            <div class="deposit_big"><!--大额存单-->
+                <div class="container mt-3">
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" data-bs-toggle="tab" href="#home">大额存单</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-bs-toggle="tab" href="#menu1">我的大额存单</a>
+                        </li>
+                    </ul>
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div id="home" class="container tab-pane active"><br>
+                            <div class="tab-content1">
+                                <p class="h6">2021年第十三期1个月个人大额存单（2021101301）</p>
+                                <p>
+                                    <a href="#">产品利率(%) <span>1.70</span></a>
+                                    <a href="#">起存金额(元) <span>200,000.00</span></a>
+                                    <a href="#">交易级差  <span>0.01</span></a>
+                                    <img src="images/deAndAcc/tips.png" class="tip">
+                                    <div class="tips" style="display:none;">
+                                        交易级差是指超出起存金额之后允许追加的最小单位
+                                    </div>
+                                    <button type="button" class="btn btn-link active">存入</button>
+                                </p>
+                            </div>
+                            <div class="tab-content2">
+                                <p class="h6">2021年第十三期3个月个人大额存单（2021101303）</p>
+                                <p>
+                                    <a href="#">产品利率(%) <span>1.70</span></a>
+                                    <a href="#">起存金额(元) <span>200,000.00</span></a>
+                                    <a href="#">交易级差  <span>0.01</span></a>
+                                    <img src="images/deAndAcc/tips.png" class="tip">
+                                <div class="tips" style="display:none;">
+                                    交易级差是指超出起存金额之后允许追加的最小单位
+                                </div>
+                                    <button type="button" class="btn btn-link active">存入</button>
+                                </p>
+                            </div>
+                            <div class="tab-content3">
+                                <p class="h6">2021年第十三期6个月个人大额存单（2021101306）</p>
+                                <p>
+                                    <a href="#">产品利率(%) <span>1.90</span></a>
+                                    <a href="#">起存金额(元) <span>200,000.00</span></a>
+                                    <a href="#">交易级差  <span>0.01</span></a>
+                                    <img src="images/deAndAcc/tips.png" class="tip">
+                                    <div class="tips" style="display:none;">
+                                        交易级差是指超出起存金额之后允许追加的最小单位
+                                    </div>
+                                    <button type="button" class="btn btn-link active">存入</button>
+                                </p>
+                            </div>
+                            <div class="tab-content4">
+                                <p class="h6">2021年第十五期1年期个人大额存单（2021101512）-潜力（可转让）</p>
+                                <p>
+                                    <a href="#">产品利率(%) <span>2.10</span></a>
+                                    <a href="#">起存金额(元) <span>200,000.00</span></a>
+                                    <a href="#">交易级差  <span>0.01</span></a>
+                                    <img src="images/deAndAcc/tips.png" class="tip">
+                                    <div class="tips" style="display:none;">
+                                        交易级差是指超出起存金额之后允许追加的最小单位
+                                    </div>
+                                    <button type="button" class="btn btn-link active">存入</button>
+                                </p>
+                            </div>
+                            <div class="tab-content5">
+                                <p class="h6">2021年第十四期1年期个人大额存单（2021101412）-新客（可转让）</p>
+                                <p>
+                                    <a href="#">产品利率(%) <span>2.00</span></a>
+                                    <a href="#">起存金额(元) <span>200,000.00</span></a>
+                                    <a href="#">交易级差  <span>0.01</span></a>
+                                    <img src="images/deAndAcc/tips.png" class="tip">
+                                    <div class="tips" style="display:none;">
+                                      交易级差是指超出起存金额之后允许追加的最小单位
+                                    </div>
+                                    <button type="button" class="btn btn-link active">存入</button>
+                                </p>
+                            </div>
+                            <p class="more">点击查看更多></p>
+                        </div>
+                        <div id="menu1" class="container tab-pane fade"><br>
+                            <a href="#login">立即登录 即可查看</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--定期存款-->
+            <div class="deposit_fix">
+                <p class="h5">定期存款</p><hr>
+                <div class="advise deposit_fix1">
+                    <img src="images/deAndAcc/d1.png">
+                    <span>通知存款</span>
+                </div>
+                <div class="deposit_fix2">
+                    <img src="images/deAndAcc/d2.png">
+                    <span>存本取息</span>
+                </div>
+                <div class="deposit_fix3">
+                    <img src="images/deAndAcc/d3.png">
+                    <span>宝贝存钱罐</span>
+                </div>
+            </div>
+            <!--专属和特色存款-->
+            <div class="special">
+                <p class="h5">特色存款</p><hr>
+                <div class="special1">
+                    <img src="images/deAndAcc/d3.png">
+                    <span class="h6">节庆存单</span><br>
+                    <span>纪念款特色存单 限量发售</span>
+                </div>
+                <div class="special2">
+                    <img src="images/deAndAcc/d2.png">
+                    <span class="h6">定活通</span><br>
+                    <span>存取灵活 自动转存</span>
+                </div>
+                <div class="special3">
+                    <img src="images/deAndAcc/d4.png">
+                    <span class="h6">通知存款</span><br>
+                    <span>智能转存协议</span>
+                </div>
+            </div>
+        </div>
+
+        <!--账户-->
+        <div class="accounts">
+            <p class="h5">我的账户</p><hr>
+            <div class="acc1">
+                <img src="images/deAndAcc/card1.png">
+                <span>重庆 借记卡（I类）</span>
+                <span>622*********6583</span>
+                <p class="balance">人民币余额 521.21</p>
+            </div>
+            <!--账户服务-->
+            <p class="h6">账户服务</p><hr>
+            <div class="acc2">
+                <img src="images/deAndAcc/accounts.png">
+                <span>账户检测</span><br>
+                <span>一键检测 全面排查</span>
+            </div>
+            <div class="acc3">
+                <img src="images/deAndAcc/mingxi.png">
+                <span>明细打印</span><br>
+                <span>发送至邮箱自助打印</span>
+            </div>
+            <div class="acc4">
+                <img src="images/deAndAcc/moeny1.png">
+                <span>资信证明</span><br>
+                <span>开立和查询进度</span>
+            </div>
+            <div class="acc5">
+                <img src="images/deAndAcc/xin.png">
+                <span>WE信使</span><br>
+                <span>动帐信息及时通知</span>
+            </div>
+        </div>
+    </div>
+
+    <!--尾部-->
+    <div class="container foot">
+        <div class="phone">
+            <p><span style="font-weight: 700;">客户服务与投诉热线：</span><span style="color: #3197e9c4">156466</span>(中国境内)；
+                <span style="font-weight: 700;">信用卡客服与投诉热线：</span><span style="color: #3197e9c4">4002562453456</span>
+                (中国境内)； <span style="color: #3197e9c4">+86-10-1354646513</span>(中国境外)</p>
+            <br>
+        </div>
+        <hr>
+        <div class="cc">
+            <div class="area">
+                <p>
+                    <a>201958304112</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+                    <a>徐燕玲</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+                    <a>17383005183</a>
+                </p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Copyright@ LSX-Software2</p>
+            </div>
+        </div>
+        <div class="foot-logo">
+            <img src="images/logo.png" alt="#">
+        </div>
+    </div>
+    <!--置顶-->
+    <div class="_top">
+        TOP
+    </div>
+    <!--背景-->
+    <div id="wrapper">
+        <canvas id="canvas" width="1950px" height="800px"></canvas>
+        <canvas id="canvasbg" width="1950px" height="800px"></canvas>
+    </div>
+    <script src="js/background.js"></script>
+</div>
+</body>
+</html>

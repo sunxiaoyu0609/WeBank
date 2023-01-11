@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="images/logo.png" type="image/x-icon"><!--//给标题加小图标-->
+    <title>201958304112徐燕玲-基金</title>
+    <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/head.css"/>
+    <link rel="stylesheet" href="css/footer.css"/>
+    <link rel="stylesheet" href="css/fundStyle.css"/>
+    <link rel="stylesheet" href="css/toTop.css"/>
+    <link rel="stylesheet" href="css/background.css"/>
+    <link rel="icon" href="" type="image/x-icon">
+</head>
+<script src="bootstrap-5.1.3-dist/js/bootstrap.min.js" charset="utf-8"></script>
+<script src="js/jquery.min.js" charset="utf-8"></script>
+<script src="js/fund.js" charset="utf-8"></script>
+<script src="js/toTop.js" type="text/javascript" charset="utf-8"></script>
+<body>
+<div class="container">
+<!--头部-->
+    <!--头部框-->
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <div class="container-fluid top" style="width: 83.1%;">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse top-link1" id="mynavbar">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">简体中文</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">繁体中文</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">English</a>
+                    </li>
+                    <li class="nav-item" id="login">
+                        <a class="nav-link" href="#">用户登录</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">注销账号</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--LOGO和二级菜单-->
+    <div class="header">
+        <div class="header1 row">
+            <div class="logo col-lg-3 col-sm-12">
+                <a href="#"><img src="images/logo.png" style="width: 100%"></a>
+            </div>
+            <ul class="list-group list-group-horizontal col-lg-5 col-sm-12">
+                <li class="list-group-item"><a style="font-size: 15px;">服务热线:</a><a style="color: #5cacff;cursor: pointer">123456</a></li>
+                <li class="list-group-item"><a style="font-size: 15px;">信用卡热线:</a><a style="color: #5cacff;cursor: pointer">400123456</a></li>
+            </ul>
+            <form class="d-flex col-lg-4 col-sm-12">
+                <input class="form-control me-2" type="text" placeholder="请输入检索关键词" id="s1">
+                <button class="btn btn-primary" type="button" id="s2">搜索</button>
+            </form>
+        </div>
+
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <nav class="navbar navbar-expand-md navbar-light" style="margin-top: -4%;">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar" style="width: 100%;">
+                <ul class="navbar-nav  nn" style="width: 100%;">
+                    <li class="nav-item" style="margin-left: 2.5%">
+                        <a class="nav-link" href="bank.html" style="text-align: center;">首页</a>
+                    </li>
+                    <li class="nav-item dropdown" style="margin-left: 2.5%">
+                        <a class="nav-link" href="bankFinance.html" id="navbardrop">
+                            银行金融
+                        </a>
+                        <span class="btn dropdown-toggle caret" data-bs-toggle="dropdown" style=""></span>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="licai.html">理财产品</a>
+                            <a class="dropdown-item" href="fund.html">基金</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown" style="margin-left: 2.5%">
+                        <a class="nav-link" href="SelfFinance.html" id="navbardrop2">
+                            个人金融
+                        </a>
+                        <span class="btn dropdown-toggle caret" data-bs-toggle="dropdown" style=""></span>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="depositAndAccounts.html">存款与账户</a>
+                            <a class="dropdown-item" href="Remittance.html">转账汇款</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown" style="margin-left: 2.5%">
+                        <a class="nav-link" href="Card.html" id="navbardrop3">
+                            银行卡
+                        </a>
+                        <span class="btn dropdown-toggle caret" data-bs-toggle="dropdown" style=""></span>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="creditCard.html">信用卡产品</a>
+                            <a class="dropdown-item" href="SpecialServers.html">特色服务</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown"  style="margin-left: 2.5%">
+                        <a class="nav-link" href="FinancialMarket.html" id="navbardrop4">
+                            金融市场
+                        </a>
+                        <span class="btn dropdown-toggle caret" data-bs-toggle="dropdown" style=""></span>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="FinancialMarket.html">WE人民币指数</a>
+                            <a class="dropdown-item" href="Loan.html">贷款</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown" style="margin-left: 2.5%">
+                        <a class="nav-link" href="ElectronicBanking.html" id="navbardrop5">
+                            网上银行
+                        </a>
+                        <span class="btn dropdown-toggle caret" data-bs-toggle="dropdown" style=""></span>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="ElectronicBanking.html">电话银行</a>
+                            <a class="dropdown-item" href="EnterpriseOnlineBanking.html">企业网上银行</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown" style="margin-left: 2.5%">
+                        <a class="nav-link " href="CompanyInformation.html" id="navbardrop6">
+                            投资者
+                        </a>
+                        <span class="btn dropdown-toggle caret" data-bs-toggle="dropdown" style=""></span>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="GovernanceCorporate.html">银行治理</a>
+                            <a class="dropdown-item" href="CompanyInformation.html">银行资料</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown" style="margin-left: 2.5%">
+                        <a class="nav-link" href="WeAbout.html" id="navbardrop7" >
+                            关于WE
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!--中间部分-->
+    <div class="middle">
+    <ul class="breadcrumb" style="width: 300px;">
+        <li>当前位置：&nbsp;</li>
+        <li><a href="bank.html">首页  >></a></li>
+        <li><a href="#">&nbsp;银行金融 >></a></li>
+        <li><a href="#">&nbsp;基 金 </a></li>
+    </ul>
+    <div class="fund">
+        <h2>基  金</h2>
+        <hr>
+        <div class="fund1">
+            <div class="shares">
+                <p><a href="#">股票型</a></p>
+            </div>
+            <div class="shares1">
+                <table class="gupiao">
+                    <tr>
+                        <th width="48%">基金名称</th>
+                        <th width="20%">单位净值</th>
+                        <th width="32%">
+                            <select>
+                                <option value="近一年涨幅">近一年涨幅</option>
+                                <option value="近三月涨幅">近三月涨幅</option>
+                                <option value="近六月涨幅">近六月涨幅</option>
+                            </select>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="fundCar.html" class="fontcolor">前海开源公用事业股票</a><br>
+                            <span>055669</span>
+                        </td>
+                        <td>3.6164</td>
+                        <td>+173.89%</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="fundCar.html"  class="fontcolor">泰达宏利转机遇型股票</a><br>
+                            <span>000825</span>
+                        </td>
+                        <td>4.0110</td>
+                        <td>+124.94%</td>
+                    </tr>
+                    <tr>
+                    <td>
+                        <a href="fundCar.html"  class="fontcolor">WE银事业生态环境</a><br>
+                        <span>001245</span>
+                    </td>
+                    <td>3.1340</td>
+                    <td>+115.36%</td>
+                    </tr>
+                    <tr style="border: none;">
+                        <td>
+                            <a href="fundCar.html" class="fontcolor">花枝智能生活派股票</a><br>
+                            <span>005684</span>
+                        </td>
+                        <td>3.5154</td>
+                        <td>+122.56%</td>
+                    </tr>
+                    <tr style="border: none;">
+                        <td></td>
+                        <td></td>
+                        <td style="text-align: right;"><a href="#" class="amore"> 更多 >></a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="fund2">
+            <div class="mix">
+                <p><a href="#">混合型</a></p>
+            </div>
+            <div class="mix1">
+                <table class="hunhe">
+                    <tr>
+                        <th>基金名称</th>
+                        <th>单位净值</th>
+                        <th>
+                            <select>
+                                <option value="近一年涨幅">近一年涨幅</option>
+                                <option value="近三月涨幅">近三月涨幅</option>
+                                <option value="近六月涨幅">近六月涨幅</option>
+                            </select>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="fundCar.html" class="fontcolor">前海开源新经济</a><br>
+                            <span>005614</span>
+                        </td>
+                        <td>3.2356</td>
+                        <td>+166.2%</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="fundCar.html" class="fontcolor">华夏行业景气</a><br>
+                            <span>002349</span>
+                        </td>
+                        <td>4.1246</td>
+                        <td>+115.23%</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="fundCar.html" class="fontcolor">国投新能源混合A</a><br>
+                            <span>021430</span>
+                        </td>
+                        <td>2.6458</td>
+                        <td>+101.23%</td>
+                    </tr>
+                    <tr style="border: none;">
+                        <td>
+                            <a href="fundCar.html" class="fontcolor">国投新能源混合C</a><br>
+                            <span>004554</span>
+                        </td>
+                        <td>3.1221</td>
+                        <td>+105.56%</td>
+                    </tr>
+                    <tr style="border: none;">
+                        <td></td>
+                        <td></td>
+                        <td style="text-align: right;"><a href="#" class="amore"> 更多 >></a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="fund3">
+            <div class="bond">
+                <p><a href="#">债券型</a></p>
+            </div>
+            <div class="bond1">
+                <table class="zhaiquan">
+                    <tr>
+                        <th>基金名称</th>
+                        <th>单位净值</th>
+                        <th>
+                            <select>
+                                <option value="近一年涨幅">近一年涨幅</option>
+                                <option value="近三月涨幅">近三月涨幅</option>
+                                <option value="近六月涨幅">近六月涨幅</option>
+                            </select>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="fundCar.html" class="fontcolor">前海开源新经济</a><br>
+                            <span>005614</span>
+                        </td>
+                        <td>3.2356</td>
+                        <td>+166.2%</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="fundCar.html" class="fontcolor">华夏行业景气</a><br>
+                            <span>002349</span>
+                        </td>
+                        <td>4.1246</td>
+                        <td>+115.23%</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="fundCar.html" class="fontcolor">国投新能源混合A</a><br>
+                            <span>021430</span>
+                        </td>
+                        <td>2.6458</td>
+                        <td>+101.23%</td>
+                    </tr>
+                    <tr style="border: none;">
+                        <td>
+                            <a href="fundCar.html" class="fontcolor">国投新能源混合C</a><br>
+                            <span>004554</span>
+                        </td>
+                        <td>3.1221</td>
+                        <td>+105.56%</td>
+                    </tr>
+                    <tr style="border: none;">
+                        <td></td>
+                        <td></td>
+                        <td style="text-align: right;"><a href="#" class="amore"> 更多 >></a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="fund4">
+            <div class="index">
+                <p><a href="#">指数型</a></p>
+            </div>
+            <div class="index1">
+                <table class="zhishu">
+                    <tr>
+                        <th>基金名称</th>
+                        <th>单位净值</th>
+                        <th>
+                            <select>
+                                <option value="近一年涨幅">近一年涨幅</option>
+                                <option value="近三月涨幅">近三月涨幅</option>
+                                <option value="近六月涨幅">近六月涨幅</option>
+                            </select>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="fundCar.html" class="fontcolor">前海开源新经济</a><br>
+                            <span>005614</span>
+                        </td>
+                        <td>3.2356</td>
+                        <td>+166.2%</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="fundCar.html" class="fontcolor">华夏行业景气</a><br>
+                            <span>002349</span>
+                        </td>
+                        <td>4.1246</td>
+                        <td>+115.23%</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="fundCar.html" class="fontcolor">国投新能源混合A</a><br>
+                            <span>021430</span>
+                        </td>
+                        <td>2.6458</td>
+                        <td>+101.23%</td>
+                    </tr>
+                    <tr style="border: none;">
+                        <td>
+                            <a href="fundCar.html"  class="fontcolor">国投新能源混合C</a><br>
+                            <span>004554</span>
+                        </td>
+                        <td>3.1221</td>
+                        <td>+105.56%</td>
+                    </tr>
+                    <tr style="border: none;">
+                        <td></td>
+                        <td></td>
+                        <td style="text-align: right;"><a href="#" class="amore"> 更多 >></a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="fund5">
+            <div class="money">
+                <p><a href="#">货币及理财型</a></p>
+            </div>
+            <div class="money1">
+                <table class="huobi">
+                    <tr>
+                        <th>基金名称</th>
+                        <th>万份收益</th>
+                        <th>七日年化</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="fundCar.html"  class="fontcolor">WE货币</a><br>
+                            <span>660107</span>
+                        </td>
+                        <td>3.2145</td>
+                        <td>+166.2%</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="fundCar.html" class="fontcolor">鹏芬安盈货币基金</a><br>
+                            <span>120054</span>
+                        </td>
+                        <td>4.1111</td>
+                        <td>+123.23%</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="fundCar.html" class="fontcolor">中温货币B</a><br>
+                            <span>004515</span>
+                        </td>
+                        <td>3.2569</td>
+                        <td>+107.70%</td>
+                    </tr>
+                    <tr style="border: none;">
+                        <td>
+                            <a href="fundCar.html" class="fontcolor">广汇货币A</a><br>
+                            <span>005566</span>
+                        </td>
+                        <td>3.2220</td>
+                        <td>+102.21%</td>
+                    </tr>
+                    <tr style="border: none;">
+                        <td></td>
+                        <td></td>
+                        <td style="text-align: right;"><a href="#" class="amore"> 更多 >></a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <br><br><hr><br>
+    <div class="info">
+        <h2>基金资讯<span>听听专家怎么说</span></h2>
+        <p class="more">MORE >></p>
+        <div class="information">
+            <div class="comma">
+                <div class="" style="width: 100%;">
+                    <div class="arcile">
+                        <div class="info-meu">
+                            <ul>
+                                <li onclick="showPanal1(this)">
+                                    <a href="#panal1">
+                                        <h4>年内新发超3万亿份 基金抢搭发行“末班车”</h4>
+                                        <p class="content1">今年十一月，基金发行市场也从年初的高峰到第二季度的低谷，担任呈现增长趋势，
+                                            我们<span class="time">2021-12-02</span></p>
+                                    </a>
+                                </li>
+                                <li onclick="showPanal1(this)">
+                                    <a href="#panal2">
+                                        <h4>年内新发超3万亿份 基金抢搭发行“末班车”</h4>
+                                        <p class="content1">
+                                            今年十一月，基金发行市场也从年初的高峰到第二季度的低谷，担任呈现增长趋势，
+                                            我们<span class="time">2021-11-28</span>
+                                        </p>
+                                    </a>
+                                </li>
+                                <li onclick="showPanal1(this)">
+                                    <a href="##">
+                                        <h4>年内新发超3万亿份 基金抢搭发行“末班车”</h4>
+                                        <p class="content1">
+                                            今年十一月，基金发行市场也从年初的高峰到第二季度的低谷，担任呈现增长趋势，
+                                            我们<span class="time">2021-11-08</span>
+                                        </p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div style="width: 50%;float: right;">
+                        <div class="panal" style="display: block;">
+                            <div class="content">
+                                <ul>
+                                    <li>
+                                        <img src="images/newsInfo/newsInfo1.jpeg" alt="">
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="panal" style="display:none;">
+                            <div class="content">
+                                <ul>
+                                    <li>
+                                        <img src="images/newsInfo/newsInfo2.jpeg" alt="">
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="panal" style="display: none;">
+                            <div class="content">
+                                <ul>
+                                    <li><img src="images/newsInfo/newsInfo3.jpeg" alt=""></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <!--尾部-->
+    <div class="container foot">
+        <div class="phone">
+            <p><span style="font-weight: 700;">客户服务与投诉热线：</span><span style="color: #3197e9c4">156466</span>(中国境内)；
+                <span style="font-weight: 700;">信用卡客服与投诉热线：</span><span style="color: #3197e9c4">4002562453456</span>
+                (中国境内)； <span style="color: #3197e9c4">+86-10-1354646513</span>(中国境外)</p>
+            <br>
+        </div>
+        <hr>
+        <div class="cc">
+            <div class="area">
+                <p>
+                    <a>201958304112</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+                    <a>徐燕玲</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+                    <a>17383005183</a>
+                </p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Copyright@ LSX-Software2</p>
+            </div>
+        </div>
+        <div class="foot-logo">
+            <img src="images/logo.png" alt="#">
+        </div>
+    </div>
+    <!--置顶-->
+    <div class="_top">
+        TOP
+    </div>
+    <!--背景-->
+    <div id="wrapper">
+        <canvas id="canvas" width="1950px" height="800px"></canvas>
+        <canvas id="canvasbg" width="1950px" height="800px"></canvas>
+    </div>
+    <script src="js/background.js"></script>
+</div>
+</body>
+</html>

@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>201958304155孙小宇-We人民币指数</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"  charset="utf-8">
+    <link rel="icon" href="images/logo.png" type="images/x-icon">
+    <link href="css/head.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/FinancialMarket.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/background.css">
+    <link rel="stylesheet" href="css/footer.css"/>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" ></script>
+</head>
+<body>
+<div class="container">
+    <div class="alert alert-dark alert-dismissible" style="width: 76.1%;margin: 0 auto;">
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        Tips：这是根据bootstrap栅格系统做的响应式界面
+    </div>
+    <!--头部框-->
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <div class="container-fluid top" style="width: 83.1%;">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse top-link1" id="mynavbar">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">简体中文</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">繁体中文</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">English</a>
+                    </li>
+                    <li class="nav-item" id="login">
+                        <a class="nav-link" href="#">用户登录</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">注销账号</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--LOGO和二级菜单-->
+    <div class="header">
+        <div class="header1 row">
+            <div class="logo col-lg-3 col-sm-12">
+                <a href="#"><img src="images/logo.png" style="width: 100%"></a>
+            </div>
+            <ul class="list-group list-group-horizontal col-lg-5 col-sm-12">
+                <li class="list-group-item"><a style="font-size: 15px;">服务热线:</a><a style="color: #5cacff;cursor: pointer">123456</a></li>
+                <li class="list-group-item"><a style="font-size: 15px;">信用卡热线:</a><a style="color: #5cacff;cursor: pointer">400123456</a></li>
+            </ul>
+            <form class="d-flex col-lg-4 col-sm-12">
+                <input class="form-control me-2" type="text" placeholder="请输入检索关键词" id="s1">
+                <button class="btn btn-primary" type="button" id="s2">搜索</button>
+            </form>
+        </div>
+
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <nav class="navbar navbar-expand-md navbar-light" style="margin-top: -4%;">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar" style="width: 100%;">
+                <ul class="navbar-nav  nn" style="width: 100%;">
+                    <li class="nav-item" style="margin-left: 2.5%">
+                        <a class="nav-link" href="bank.html" style="text-align: center;">首页</a>
+                    </li>
+                    <li class="nav-item dropdown" style="margin-left: 2.5%">
+                        <a class="nav-link" href="bankFinance.html" id="navbardrop">
+                            银行金融
+                        </a>
+                        <span class="btn dropdown-toggle caret" data-bs-toggle="dropdown" style=""></span>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="licai.html">理财产品</a>
+                            <a class="dropdown-item" href="fund.html">基金</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown" style="margin-left: 2.5%">
+                        <a class="nav-link" href="SelfFinance.html" id="navbardrop2">
+                            个人金融
+                        </a>
+                        <span class="btn dropdown-toggle caret" data-bs-toggle="dropdown" style=""></span>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="depositAndAccounts.html">存款与账户</a>
+                            <a class="dropdown-item" href="Remittance.html">转账汇款</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown" style="margin-left: 2.5%">
+                        <a class="nav-link" href="Card.html" id="navbardrop3">
+                            银行卡
+                        </a>
+                        <span class="btn dropdown-toggle caret" data-bs-toggle="dropdown" style=""></span>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="creditCard.html">信用卡产品</a>
+                            <a class="dropdown-item" href="SpecialServers.html">特色服务</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown"  style="margin-left: 2.5%">
+                        <a class="nav-link" href="FinancialMarket.html" id="navbardrop4">
+                            金融市场
+                        </a>
+                        <span class="btn dropdown-toggle caret" data-bs-toggle="dropdown" style=""></span>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="FinancialMarket.html">WE人民币指数</a>
+                            <a class="dropdown-item" href="Loan.html">贷款</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown" style="margin-left: 2.5%">
+                        <a class="nav-link" href="ElectronicBanking.html" id="navbardrop5">
+                            网上银行
+                        </a>
+                        <span class="btn dropdown-toggle caret" data-bs-toggle="dropdown" style=""></span>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="ElectronicBanking.html">电话银行</a>
+                            <a class="dropdown-item" href="EnterpriseOnlineBanking.html">企业网上银行</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown" style="margin-left: 2.5%">
+                        <a class="nav-link " href="CompanyInformation.html" id="navbardrop6">
+                            投资者
+                        </a>
+                        <span class="btn dropdown-toggle caret" data-bs-toggle="dropdown" style=""></span>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="GovernanceCorporate.html">银行治理</a>
+                            <a class="dropdown-item" href="CompanyInformation.html">银行资料</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown" style="margin-left: 2.5%">
+                        <a class="nav-link" href="WeAbout.html" id="navbardrop7" >
+                            关于WE
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="container middle">
+        <div class="row all-row">
+            <ul class="breadcrumb">
+                <li>当前位置:&nbsp&nbsp&nbsp&nbsp</li>
+                <li class="breadcrumb-item">首页</li>
+                <li class="breadcrumb-item">金融市场</li>
+                <li class="breadcrumb-item active">We银行人民币国际化指数</li>
+            </ul>
+            <div class="row CRI">
+                <h2 class="col-lg-9">跨境人民币指数（CRI）</h2>
+                <!-- 右对齐 -->
+                <div class="dropdown col-lg-3">
+                    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-emoji-laughing col-lg-3" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                            <path d="M12.331 9.5a1 1 0 0 1 0 1A4.998 4.998 0 0 1 8 13a4.998 4.998 0 0 1-4.33-2.5A1 1 0 0 1 4.535 9h6.93a1 1 0 0 1 .866.5zM7 6.5c0 .828-.448 0-1 0s-1 .828-1 0S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 0-1 0s-1 .828-1 0S9.448 5 10 5s1 .672 1 1.5z"/>
+                        </svg>
+                        网银登录
+                    </button>
+                    <ul class="dropdown-menu fade">
+                        <li><a class="dropdown-item" href="#">个人客户网银登录</a></li>
+                        <li><a class="dropdown-item" href="#">个人贵宾网银登录</a></li>
+                        <li><a class="dropdown-item" href="#">企业客户网银登录</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!--左边板块-->
+            <div class="row col-lg-9 row-l col-md-9 col-sm-12">
+                <div class="row row1">
+                    <span class="col-lg-9">跨境人民币指数（CRI）</span>
+                    <a class="col-lg-3 learnmore" href="#">了解更多></a>
+                </div>
+                <div class="row row2">
+                    <div class="col-lg-6 col-md-12"><img src="images/finacial.png" style="width: 100%"></div>
+                    <div class="col-lg-6 col-md-12">
+                        <h5 style="font-weight: bolder;margin-bottom: 20px;margin-top: 20px">
+                            2021年第三季度跨境人民币指数
+                        </h5>
+                        <h6>11月18日，中国银行发布2021年第三季度跨境人民币指数（CRI），数值为327，较二季度上升5点，高于预测值7点。</h6>
+                    </div>
+                </div>
+                <!--虚线-->
+                <div class="hr-line-dashed"></div>
+                <div class="row row3">
+                    <div class="row row3-1">
+                            <a href="#" class="col-lg-6 col-sm-12">2020年三季度跨境人民币指数（CRI）</a>
+                            <a href="#" class="col-lg-6 col-sm-12">2020年三季度跨境人民币指数（CRI）</a>
+                            <a href="#" class="col-lg-6 col-sm-12">2020年三季度跨境人民币指数（CRI）</a>
+                            <a href="#" class="col-lg-6 col-sm-12">2020年三季度跨境人民币指数（CRI）</a>
+                            <a href="#" class="col-lg-6 col-sm-12">2020年三季度跨境人民币指数（CRI）</a>
+                            <a href="#" class="col-lg-6 col-sm-12">2020年三季度跨境人民币指数（CRI）</a>
+                            <a href="#" class="col-lg-6 col-sm-12">2020年三季度跨境人民币指数（CRI）</a>
+                            <a href="#" class="col-lg-6 col-sm-12">2020年三季度跨境人民币指数（CRI）</a>
+
+                    </div>
+
+
+                    <div class="row row3-2" style="display: none">
+                            <a href="#" class="col-lg-6 col-sm-12">2021年三季度跨境人民币指数</a>
+                            <a href="#" class="col-lg-6 col-sm-12">2021年三季度跨境人民币指数</a>
+                            <a href="#" class="col-lg-6 col-sm-12">2021年三季度跨境人民币指数</a>
+                            <a href="#" class="col-lg-6 col-sm-12">2021年三季度跨境人民币指数</a>
+                            <a href="#" class="col-lg-6 col-sm-12">2021年三季度跨境人民币指数</a>
+                            <a href="#" class="col-lg-6 col-sm-12">2021年三季度跨境人民币指数</a>
+                            <a href="#" class="col-lg-6 col-sm-12">2021年三季度跨境人民币指数</a>
+                            <a href="#" class="col-lg-6 col-sm-12">2021年三季度跨境人民币指数</a>
+                    </div>
+                    <ul class="row">
+                        <li class="col-sm-6"><div class="row3-ul-one"></div></li>
+                        <li class="col-sm-6"><div class="row3-ul-two"></div></li>
+                    </ul>
+                </div>
+            </div>
+            <!--右边板块-->
+            <div class="row col-lg-3 col-md-12 col-sm-12 row-r">
+                <h4 style="margin-top: 20px">人民币业务白皮书</h4>
+                <img src="images/2017.png">
+            </div>
+            <div class="col-lg-12 col-md-hide">
+                <div class="ato-content clearfix">
+                    <div class="ato-list-fl">
+                        <div class="ato-title">
+                            <h2>特色产品</h2>
+                            <p>权威认证的云计算服务，充分保障您的业务实践与业务安全</p>
+                        </div>
+                        <a href="javascript:;" class="prev">
+                            <img src="images/icon-left.png" alt="" class="ato-ope">
+                            <img src="images/icon-left1.png" alt="" class="ato-ope1">
+                        </a>
+                        <a href="javascript:;" class="next">
+                            <img src="images/icon-right.png" alt="" class="ato-ope">
+                            <img src="images/icon-right1.png" alt="" class="ato-ope1 ato-ope2">
+                        </a>
+                    </div>
+                    <div class="ato-list">
+                        <ul>
+                            <li>
+                                <div>
+                                    <img src="images/logo001.png" alt="" class="ato-logo001">
+                                </div>
+                                <h3>节能融易贷</h3>
+                                <p>节能融易贷是针对节能服务企业推出的以未来节能收益作为主要还款来源的一款融资产品。</p>
+                                <img src="images/sxy-jinrong-1.png">
+                                <a href="#" class="ato-more">查看详情</a>
+                            </li>
+                            <li>
+                                <div>
+                                    <img src="images/logo002.png" alt="" class="ato-logo001">
+                                </div>
+                                <h3>小微企业卡</h3>
+                                <p>小微企业卡是针对有结算和短期融资需求的小微企业客户发行的一张单位结算卡。</p>
+                                <img src="images/sxy-jr-2.png">
+                                <a href="#" class="ato-more">查看详情</a>
+                            </li>
+                            <li>
+                                <div>
+                                    <img src="images/logo003.png" alt="" class="ato-logo001">
+                                </div>
+                                <h3>知识产权质押贷款</h3>
+                                <p>知识产权质押贷款是针对以知识产权为质押物的一款融资产品,知识产权质押贷款是针对以知识产权为质押物的一品。</p>
+                                <img src="images/sxy-jr-3.png">
+                                <a href="#" class="ato-more">查看详情</a>
+                            </li>
+                            <li>
+                                <div>
+                                    <img src="images/logo001.png" alt="" class="ato-logo001">
+                                </div>
+                                <h3>节能融易贷</h3>
+                                <p>节能融易贷是针对节能服务企业推出的以未来节能收益作为主要还款来源的一款融资产品。</p>
+                                <img src="images/sxy-jinrong-1.png">
+                                <a href="#" class="ato-more">查看详情</a>
+                            </li>
+                            <li>
+                                <div>
+                                    <img src="images/logo002.png" alt="" class="ato-logo001">
+                                </div>
+                                <h3>小微企业卡</h3>
+                                <p>小微企业卡是针对有结算和短期融资需求的小微企业客户发行的一张单位结算卡。</p>
+                                <img src="images/sxy-jr-2.png">
+                                <a href="#" class="ato-more">查看详情</a>
+                            </li>
+                            <li>
+                                <div>
+                                    <img src="images/logo003.png" alt="" class="ato-logo001">
+                                </div>
+                                <h3>知识产权质押贷款</h3>
+                                <p>知识产权质押贷款是针对以知识产权为质押物的一款融资产品,知识产权质押贷款是针对以知识产权为质押物的一品。</p>
+                                <img src="images/sxy-jr-3.png">
+                                <a href="#" class="ato-more">查看详情</a>
+                            </li>
+                            <li>
+                                <div>
+                                    <img src="images/logo001.png" alt="" class="ato-logo001">
+                                </div>
+                                <h3>节能融易贷</h3>
+                                <p>节能融易贷是针对节能服务企业推出的以未来节能收益作为主要还款来源的一款融资产品。</p>
+                                <img src="images/sxy-jinrong-1.png">
+                                <a href="#" class="ato-more">查看详情</a>
+                            </li>
+                            <li>
+                                <div>
+                                    <img src="images/logo002.png" alt="" class="ato-logo001">
+                                </div>
+                                <h3>小微企业卡</h3>
+                                <p>小微企业卡是针对有结算和短期融资需求的小微企业客户发行的一张单位结算卡。</p>
+                                <img src="images/sxy-jr-2.png">
+                                <a href="#" class="ato-more">查看详情</a>
+                            </li>
+                            <li>
+                                <div>
+                                    <img src="images/logo003.png" alt="" class="ato-logo001">
+                                </div>
+                                <h3>知识产权质押贷款</h3>
+                                <p>知识产权质押贷款是针对以知识产权为质押物的一款融资产品,知识产权质押贷款是针对以知识产权为质押物的一品。</p>
+                                <img src="images/sxy-jr-3.png">
+                                <a href="#" class="ato-more">查看详情</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container foot">
+    <div class="phone">
+        <p><span style="font-weight: 700;">客户服务与投诉热线：</span><span style="color: #3197e9c4">156466</span>(中国境内)；
+            <span style="font-weight: 700;">信用卡客服与投诉热线：</span><span style="color: #3197e9c4">4002562453456</span>
+            (中国境内)； <span style="color: #3197e9c4">+86-10-1354646513</span>(中国境外)</p>
+        <br>
+    </div>
+    <hr>
+    <div class="cc">
+        <div class="area">
+            <p>
+                <a>201958304155</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+                <a>孙小宇</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+                <a>18723371508</a>
+            </p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Copyright@ LSX-Software2</p>
+        </div>
+    </div>
+    <div class="foot-logo">
+        <img src="images/logo.png" alt="#">
+    </div>
+</div>
+<div id="wrapper">
+    <canvas id="canvas" width="1950px" height="800px"></canvas>
+    <canvas id="canvasbg" width="1950px" height="800px"></canvas>
+</div>
+<script src="js/background.js" charset="utf-8"></script>
+</body>
+<script>
+    $(document).ready(function(){
+        $(".row3-ul-one").click(function () {
+            $(".row3-1").show();
+            $(".row3-2").hide();
+            $(".row3-ul-one").css("background","#3197e9c4")
+            $(".row3-ul-two").css("background","grey")
+        })
+        $(".row3-ul-two").click(function () {
+            $(".row3-2").show();
+            $(".row3-1").hide();
+            $(".row3-ul-two").css("background","#3197e9c4")
+            $(".row3-ul-one").css("background","grey")
+        })
+    });
+</script>
+<script type="text/javascript">
+
+    jQuery(".ato-content").slide({titCell:".ato-list-fl ul",mainCell:".ato-list ul",autoPage:true,effect:"leftLoop",autoPlay:true,vis:3});
+
+</script>
+</html>

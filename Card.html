@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="images/logo.png" type="image/x-icon"><!--//给标题加小图标-->
+    <title>201958304112徐燕玲-银行卡</title>
+    <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/head.css"/>
+    <link rel="stylesheet" href="css/card.css"/>
+    <link rel="stylesheet" href="css/footer.css"/>
+    <link rel="stylesheet" href="css/toTop.css"/>
+    <link rel="stylesheet" href="css/background.css"/>
+    <script src="bootstrap-5.1.3-dist/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/toTop.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+<div class="container">
+    <!--头部-->
+    <!--头部框-->
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <div class="container-fluid top" style="width: 83.1%;">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse top-link1" id="mynavbar">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">简体中文</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">繁体中文</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">English</a>
+                    </li>
+                    <li class="nav-item" id="login">
+                        <a class="nav-link" href="#">用户登录</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">注销账号</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--LOGO和二级菜单-->
+    <div class="header">
+        <div class="header1 row">
+            <div class="logo col-lg-3 col-sm-12">
+                <a href="#"><img src="images/logo.png" style="width: 100%"></a>
+            </div>
+            <ul class="list-group list-group-horizontal col-lg-5 col-sm-12">
+                <li class="list-group-item"><a style="font-size: 15px;">服务热线:</a><a style="color: #5cacff;cursor: pointer">123456</a></li>
+                <li class="list-group-item"><a style="font-size: 15px;">信用卡热线:</a><a style="color: #5cacff;cursor: pointer">400123456</a></li>
+            </ul>
+            <form class="d-flex col-lg-4 col-sm-12">
+                <input class="form-control me-2" type="text" placeholder="请输入检索关键词" id="s1">
+                <button class="btn btn-primary" type="button" id="s2">搜索</button>
+            </form>
+        </div>
+
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <nav class="navbar navbar-expand-md navbar-light" style="margin-top: -4%;">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar" style="width: 100%;">
+                <ul class="navbar-nav  nn" style="width: 100%;">
+                    <li class="nav-item" style="margin-left: 2.5%">
+                        <a class="nav-link" href="bank.html" style="text-align: center;">首页</a>
+                    </li>
+                    <li class="nav-item dropdown" style="margin-left: 2.5%">
+                        <a class="nav-link" href="bankFinance.html" id="navbardrop">
+                            银行金融
+                        </a>
+                        <span class="btn dropdown-toggle caret" data-bs-toggle="dropdown" style=""></span>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="licai.html">理财产品</a>
+                            <a class="dropdown-item" href="fund.html">基金</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown" style="margin-left: 2.5%">
+                        <a class="nav-link" href="SelfFinance.html" id="navbardrop2">
+                            个人金融
+                        </a>
+                        <span class="btn dropdown-toggle caret" data-bs-toggle="dropdown" style=""></span>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="depositAndAccounts.html">存款与账户</a>
+                            <a class="dropdown-item" href="Remittance.html">转账汇款</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown" style="margin-left: 2.5%">
+                        <a class="nav-link" href="Card.html" id="navbardrop3">
+                            银行卡
+                        </a>
+                        <span class="btn dropdown-toggle caret" data-bs-toggle="dropdown" style=""></span>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="creditCard.html">信用卡产品</a>
+                            <a class="dropdown-item" href="SpecialServers.html">特色服务</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown"  style="margin-left: 2.5%">
+                        <a class="nav-link" href="FinancialMarket.html" id="navbardrop4">
+                            金融市场
+                        </a>
+                        <span class="btn dropdown-toggle caret" data-bs-toggle="dropdown" style=""></span>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="FinancialMarket.html">WE人民币指数</a>
+                            <a class="dropdown-item" href="Loan.html">贷款</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown" style="margin-left: 2.5%">
+                        <a class="nav-link" href="ElectronicBanking.html" id="navbardrop5">
+                            网上银行
+                        </a>
+                        <span class="btn dropdown-toggle caret" data-bs-toggle="dropdown" style=""></span>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="ElectronicBanking.html">电话银行</a>
+                            <a class="dropdown-item" href="EnterpriseOnlineBanking.html">企业网上银行</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown" style="margin-left: 2.5%">
+                        <a class="nav-link " href="CompanyInformation.html" id="navbardrop6">
+                            投资者
+                        </a>
+                        <span class="btn dropdown-toggle caret" data-bs-toggle="dropdown" style=""></span>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="GovernanceCorporate.html">银行治理</a>
+                            <a class="dropdown-item" href="CompanyInformation.html">银行资料</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown" style="margin-left: 2.5%">
+                        <a class="nav-link" href="WeAbout.html" id="navbardrop7" >
+                            关于WE
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!--内容-->
+    <div class="align-middle">
+        <ul class="breadcrumb" style="width: 300px;">
+            <li>当前位置：&nbsp;</li>
+            <li><a href="bank.html">首页  >></a></li>
+            <li><a href="#">&nbsp;银行卡 </a></li>
+        </ul>
+
+        <!--侧边通知-->
+        <!--优惠通知-->
+        <div class="dis">
+            <div class="dis1">
+                <a href="#">
+                    <span>优惠商户</span>
+                    <img src="images/card/dis1.png" alt="">
+                </a>
+            </div>
+            <div class="dis2">
+                <a href="#">
+                    <span>积分兑换</span>
+                    <img src="images/card/dis2.png" alt="">
+                </a>
+            </div>
+            <div class="dis3">
+                <a href="#">
+                    <span>聪明购</span>
+                    <img src="images/card/dis3.png" alt="">
+                </a>
+            </div>
+            <div class="dis4">
+                <a href="#">
+                    <span>我要支付</span>
+                    <img src="images/card/dis4.gif" alt="">
+                </a>
+            </div>
+        </div>
+        <!--轮播-->
+        <div class="b-carousel">
+            <!-- 轮播 -->
+            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+                <!-- 指示符 -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                </div>
+                <!-- 轮播图片 -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/bFinance/长条卡通背景.jpeg" class="d-block" style="width:100%">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/bFinance/长条卡通背景2.jpeg" class="d-block" style="width:100%">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/bFinance/长条卡通背景3.jpeg" class="d-block" style="width:100%">
+                    </div>
+                </div>
+                <!-- 左右切换按钮 -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+
+        <!--公告通知-->
+        <div class="bank1">
+            <!--公告-->
+            <div class="notice">
+                <p class="h4">公告信息</p>
+                <div class="notice1">
+                    <span>&nbsp;·&nbsp;</span>
+                    <p><a href="#" title="关于调整国家助学贷款业务的公告(2021年9月17日起)">关于调整国家助学贷款业务的公告(2021年9月17日起)</a></p>
+                </div>
+                <div class="notice2">
+                    <span>&nbsp;·&nbsp;</span>
+                    <p><a href="#" title="关于推进个人客户身份基本信息核实和完善的公告">关于推进个人客户身份基本信息核实和完善的公告</a></p>
+                </div>
+                <div class="notice3">
+                    <span>&nbsp;·&nbsp;</span>
+                    <p><a href="#" title="关于免收个人账户管理费和年费的补充公告">关于免收个人账户管理费和年费的补充公告</a></p>
+                </div>
+                <div class="notice4">
+                    <span>&nbsp;·&nbsp;</span>
+                    <p><a href="#" title="关于继续开展人民币小额个人活期存款账户管理费让利优惠的公告(2019年1月1日起)">关于继续开展人民币小额个人活期存款账户管理费让利优惠的公告(2019年1月1日起)</a></p>
+                </div>
+                <div class="notice5">
+                    <span>&nbsp;·&nbsp;</span>
+                    <p><a href="#" title="关于存量浮动利率个人贷款定价基准转换的公告">关于存量浮动利率个人贷款定价基准转换的公告</a></p>
+                </div>
+
+                <p class="more"><a href="#">更多 >></a> </p>
+            </div>
+            <!--优惠活动-->
+            <div class="discount">
+                <p class="h4">优惠活动</p>
+                <div class="discount1">
+                    <span>&nbsp;·&nbsp;</span>
+                    <p><a href="#" title="人生有你才“金”彩——“女神节”实物贵金属限时优惠(2021年3月1-21日)">人生有你才“金”彩——“女神节”实物贵金属限时优惠(2021年3月1-21日)</a></p>
+                </div>
+                <div class="discount2">
+                    <span>&nbsp;·&nbsp;</span>
+                    <p><a href="#" title="手机银行“缴费有惊喜 点击抽好礼”(2021年)">手机银行“缴费有惊喜 点击抽好礼”(2021年)</a></p>
+                </div>
+                <div class="discount3">
+                    <span>&nbsp;·&nbsp;</span>
+                    <p><a href="#" title="WE银行双十二5折狂欢，再送30+30！">WE银行双十二5折狂欢，再送30+30！</a></p>
+                </div>
+                <div class="discount4">
+                    <span>&nbsp;·&nbsp;</span>
+                    <p><a href="#" title="WE好账户 新春开门红">WE好账户 新春开门红</a></p>
+                </div>
+                <div class="discount5">
+                    <span>&nbsp;·&nbsp;</span>
+                    <p><a href="#" title="“投资选WE，体验送好礼！”WE国际证券开户并体验可领双重赠礼">“投资选WE，体验送好礼！”WE国际证券开户并体验可领双重赠礼</a></p>
+                </div>
+
+                <p class="more"><a href="#">更多 >></a> </p>
+            </div>
+        </div>
+        <!--WE贵宾服务专线-->
+        <div class="connection">
+            <img src="images/selfFinance/ask.png">
+            <p>
+                WE贵宾服务专线<br>
+                <span style="color: brown;">4005830-4112</span>
+            </p>
+        </div>
+        <!--实用信息-->
+        <div class="info">
+            <ul><p class="h6"> 实用信息</p>
+                <span>▶</span><li><a href="#">个人长城人民币借记卡常用交易限额</a></li>
+                <span>▶</span><li><a href="#">WE银行人民币小面额现金兑换主办网点</a></li>
+                <span>▶</span><li><a href="#">个人存款业务常见问题解答</a></li>
+                <span>▶</span><li><a href="#">住房贷款合作伙伴</a></li>
+                <span>▶</span><li><a href="#">其他个人贷款问答</a></li>
+            </ul>
+        </div>
+
+        <!--part1-热卡推荐-->
+        <div class="bank2">
+            <div class="container mt-3">
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-bs-toggle="tab" href="#home">信用卡</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" href="#menu1">借记卡</a>
+                    </li>
+                </ul>
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div id="home" class="container tab-pane active"><br>
+                        <div class="credit1">
+                            <a href="#">
+                                <img src="images/card/c1.jpg" alt="">
+                                <span>WE信用卡</span>
+                            </a>
+                            <p>
+                                <em>1111</em>
+                                <em>1111</em>
+                            </p>
+                            <p>
+                                <em>1111</em>
+                                <em>1111</em>
+                            </p>
+                        </div>
+                        <div class="credit2">
+                            <a href="#">
+                                <img src="images/card/c2.jpeg" alt="">
+                                <span>WE信用卡</span>
+                            </a>
+                            <p>
+                                <em>1111</em>
+                                <em>1111</em>
+                            </p>
+                            <p>
+                                <em>1111</em>
+                                <em>1111</em>
+                            </p>
+                        </div>
+                        <div class="credit3">
+                            <a href="#">
+                                <img src="images/card/c4.jpeg" alt="">
+                                <span>WE信用卡</span>
+                            </a>
+                            <p>
+                                <em>1111</em>
+                                <em>1111</em>
+                            </p>
+                            <p>
+                                <em>1111</em>
+                                <em>1111</em>
+                            </p>
+                        </div>
+                    </div>
+                    <div id="menu1" class="container tab-pane fade"><br>
+                        <div class="credit1">
+                            <a href="#">
+                                <img src="images/card/c5.jpeg" alt="">
+                                <span>WE信用卡</span>
+                            </a>
+                            <p>
+                                <em>1111</em>
+                                <em>1111</em>
+                            </p>
+                            <p>
+                                <em>1111</em>
+                                <em>1111</em>
+                            </p>
+                        </div>
+                        <div class="credit2">
+                            <a href="#">
+                                <img src="images/card/c6.jpeg" alt="">
+                                <span>WE信用卡</span>
+                            </a>
+                            <p>
+                                <em>1111</em>
+                                <em>1111</em>
+                            </p>
+                            <p>
+                                <em>1111</em>
+                                <em>1111</em>
+                            </p>
+                        </div>
+                        <div class="credit3">
+                            <a href="#">
+                                <img src="images/card/c7.jpeg" alt="">
+                                <span>WE信用卡</span>
+                            </a>
+                            <p>
+                                <em>1111</em>
+                                <em>1111</em>
+                            </p>
+                            <p>
+                                <em>1111</em>
+                                <em>1111</em>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--part2-借记卡申请-->
+        <div class="bank3 apply">
+            <p class="h4">银行卡申请步骤</p>
+            <div class="line">
+                <div class="one"><img src="images/card/ring.png" alt=""></div>
+                <div class="two"><img src="images/card/ring.png" alt=""></div>
+                <div class="three"><img src="images/card/ring.png" alt=""></div>
+            </div>
+            <div class="line-words">
+                <div class="one">填写信息</div>
+                <div class="two">申请确认</div>
+                <div class="three">完成申请</div>
+            </div>
+        </div>
+
+        <!--part3-服务指南-->
+        <div class="bank4">
+            <p class="h4">服务指南</p><hr>
+            <div class="server1">
+                <ul>
+                    <a href="#" class="h6"> 办卡用卡指南</a>
+                    <li><span>·</span>&nbsp;&nbsp;WE银行信用卡还款指南</li>
+                    <li><span>·</span>&nbsp;&nbsp;WE银行信用卡开卡指南</li>
+                    <li><span>·</span>&nbsp;&nbsp;WE银行信用卡使用指南</li>
+                </ul>
+            </div>
+            <div class="server2">
+                <ul>
+                    <a href="#" class="h6"> 安全用卡指南</a>
+                    <li><span>·</span>&nbsp;&nbsp;关于防范诈骗电话套取客户重要支付信息的风险提示</li>
+                    <li><span>·</span>&nbsp;&nbsp;关于防范假冒“银联”欺诈短信和钓鱼网站的提示</li>
+                    <li><span>·</span>&nbsp;&nbsp;了解“银行卡非法买卖”危害 增强合法安全用卡意识</li>
+                </ul>
+            </div>
+            <div class="server3">
+                <ul>
+                    <a href="#" class="h6"> 常见问题解答</a>
+                    <li><span>·</span>&nbsp;&nbsp;信用卡常见名词解释</li>
+                    <li><span>·</span>&nbsp;&nbsp;常见问题解答——信用卡申领及开卡</li>
+                    <li><span>·</span>&nbsp;&nbsp;常见问题解答——手机账单</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!--尾部-->
+    <div class="container foot">
+        <div class="phone">
+            <p><span style="font-weight: 700;">客户服务与投诉热线：</span><span style="color: #3197e9c4">156466</span>(中国境内)；
+                <span style="font-weight: 700;">信用卡客服与投诉热线：</span><span style="color: #3197e9c4">4002562453456</span>
+                (中国境内)； <span style="color: #3197e9c4">+86-10-1354646513</span>(中国境外)</p>
+            <br>
+        </div>
+        <hr>
+        <div class="cc">
+            <div class="area">
+                <p>
+                    <a>201958304112</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+                    <a>徐燕玲</a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+                    <a>17383005183</a>
+                </p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Copyright@ LSX-Software2</p>
+            </div>
+        </div>
+        <div class="foot-logo">
+            <img src="images/logo.png" alt="#">
+        </div>
+    </div>
+    <!--置顶-->
+    <div class="_top">
+        TOP
+    </div>
+    <!--背景-->
+    <div id="wrapper">
+        <canvas id="canvas" width="1950px" height="800px"></canvas>
+        <canvas id="canvasbg" width="1950px" height="800px"></canvas>
+    </div>
+    <script src="js/background.js"></script>
+</div>
+</body>
+</html>
