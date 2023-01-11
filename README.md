@@ -6,7 +6,7 @@
 
 bootstrap栅格技术：
 
-GovernanceCorporate.html
-FinancialMarket.html
-EnterpriseOnlineBanking.html
-ElectronicBanking.html
+GovernanceCorporate.html      
+FinancialMarket.html              
+EnterpriseOnlineBanking.html             
+ElectronicBanking.html           
